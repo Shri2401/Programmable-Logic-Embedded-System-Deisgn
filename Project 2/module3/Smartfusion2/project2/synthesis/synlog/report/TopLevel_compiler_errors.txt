@@ -1,0 +1,2 @@
+@E: CS162 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":326:16:326:24|Loop iteration limit 2000 exceeded - add '// synthesis loop_limit 4000' before the loop construct
+

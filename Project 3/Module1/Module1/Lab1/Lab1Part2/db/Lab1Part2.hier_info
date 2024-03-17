@@ -1,0 +1,21 @@
+|Lab1Part2
+x[0] => m.DATAA
+x[1] => m.DATAA
+x[2] => m.DATAA
+x[3] => m.DATAA
+y[0] => m.DATAB
+y[1] => m.DATAB
+y[2] => m.DATAB
+y[3] => m.DATAB
+s => m.OUTPUTSELECT
+s => m.OUTPUTSELECT
+s => m.OUTPUTSELECT
+s => m.OUTPUTSELECT
+s => s_out.DATAIN
+m[0] << m.DB_MAX_OUTPUT_PORT_TYPE
+m[1] << m.DB_MAX_OUTPUT_PORT_TYPE
+m[2] << m.DB_MAX_OUTPUT_PORT_TYPE
+m[3] << m.DB_MAX_OUTPUT_PORT_TYPE
+s_out << s.DB_MAX_OUTPUT_PORT_TYPE
+
+

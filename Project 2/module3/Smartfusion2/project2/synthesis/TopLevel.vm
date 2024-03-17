@@ -1,0 +1,61 @@
+//
+// Written by Synplify Pro 
+// Product Version "Q-2020.03M-SP1"
+// Program "Synplify Pro", Mapper "map202003act, Build 160R"
+// Mon Oct 23 15:13:46 2023
+//
+// Source file index table:
+// Object locations will have the form <file>:<line>
+// file 0 "\c:\microsemi\libero_soc_v12.6\synplifypro\lib\generic\smartfusion2.v "
+// file 1 "\c:\microsemi\libero_soc_v12.6\synplifypro\lib\vlog\hypermods.v "
+// file 2 "\c:\microsemi\libero_soc_v12.6\synplifypro\lib\vlog\umr_capim.v "
+// file 3 "\c:\microsemi\libero_soc_v12.6\synplifypro\lib\vlog\scemi_objects.v "
+// file 4 "\c:\microsemi\libero_soc_v12.6\synplifypro\lib\vlog\scemi_pipes.svh "
+// file 5 "\c:\microsemi_prj\project2\hdl\project2.v "
+// file 6 "\c:\microsemi_prj\project2\hdl\toplevel.v "
+// file 7 "\c:\microsemi\libero_soc_v12.6\synplifypro\lib\nlconst.dat "
+// file 8 "\c:\microsemi_prj\project2\designer\toplevel\synthesis.fdc "
+
+`timescale 100 ps/100 ps
+module TopLevel (
+  clk,
+  reset,
+  final_count
+)
+;
+input clk ;
+input reset ;
+output [15:0] final_count ;
+wire clk ;
+wire reset ;
+wire GND ;
+wire VCC ;
+// @6:312
+  TRIBUFF final_count_1 (
+	.PAD(final_count[0]),
+	.D(GND),
+	.E(GND)
+);
+  GND GND_Z (
+	.Y(GND)
+);
+  VCC VCC_Z (
+	.Y(VCC)
+);
+assign final_count[1] = GND;
+assign final_count[2] = GND;
+assign final_count[3] = GND;
+assign final_count[4] = GND;
+assign final_count[5] = GND;
+assign final_count[6] = GND;
+assign final_count[7] = GND;
+assign final_count[8] = GND;
+assign final_count[9] = GND;
+assign final_count[10] = GND;
+assign final_count[11] = GND;
+assign final_count[12] = GND;
+assign final_count[13] = GND;
+assign final_count[14] = GND;
+assign final_count[15] = GND;
+endmodule /* TopLevel */
+

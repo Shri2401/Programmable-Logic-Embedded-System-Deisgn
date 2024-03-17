@@ -1,0 +1,98 @@
+# Microsemi Physical design constraints file
+
+# Version: v12.6 12.900.20.24
+
+# Design Name: shift_reg32 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S010 , Package: 144 TQ , Speed grade: STD 
+
+# Date generated: Tue Oct 17 17:10:50 2023 
+
+
+#
+# I/O constraints
+#
+
+set_io CLK -DIRECTION INPUT -pinname 20 -fixed no
+set_io D -DIRECTION INPUT -pinname 61 -fixed no
+set_io EN -DIRECTION INPUT -pinname 60 -fixed no
+set_io Q\[0\] -DIRECTION OUTPUT -pinname 100 -fixed no
+set_io Q\[1\] -DIRECTION OUTPUT -pinname 48 -fixed no
+set_io Q\[2\] -DIRECTION OUTPUT -pinname 56 -fixed no
+set_io Q\[3\] -DIRECTION OUTPUT -pinname 53 -fixed no
+set_io Q\[4\] -DIRECTION OUTPUT -pinname 58 -fixed no
+set_io Q\[5\] -DIRECTION OUTPUT -pinname 81 -fixed no
+set_io Q\[6\] -DIRECTION OUTPUT -pinname 102 -fixed no
+set_io Q\[7\] -DIRECTION OUTPUT -pinname 63 -fixed no
+set_io Q\[8\] -DIRECTION OUTPUT -pinname 33 -fixed no
+set_io Q\[9\] -DIRECTION OUTPUT -pinname 91 -fixed no
+set_io Q\[10\] -DIRECTION OUTPUT -pinname 27 -fixed no
+set_io Q\[11\] -DIRECTION OUTPUT -pinname 36 -fixed no
+set_io Q\[12\] -DIRECTION OUTPUT -pinname 29 -fixed no
+set_io Q\[13\] -DIRECTION OUTPUT -pinname 28 -fixed no
+set_io Q\[14\] -DIRECTION OUTPUT -pinname 110 -fixed no
+set_io Q\[15\] -DIRECTION OUTPUT -pinname 38 -fixed no
+set_io Q\[16\] -DIRECTION OUTPUT -pinname 30 -fixed no
+set_io Q\[17\] -DIRECTION OUTPUT -pinname 90 -fixed no
+set_io Q\[18\] -DIRECTION OUTPUT -pinname 37 -fixed no
+set_io Q\[19\] -DIRECTION OUTPUT -pinname 57 -fixed no
+set_io Q\[20\] -DIRECTION OUTPUT -pinname 64 -fixed no
+set_io Q\[21\] -DIRECTION OUTPUT -pinname 44 -fixed no
+set_io Q\[22\] -DIRECTION OUTPUT -pinname 94 -fixed no
+set_io Q\[23\] -DIRECTION OUTPUT -pinname 67 -fixed no
+set_io Q\[24\] -DIRECTION OUTPUT -pinname 52 -fixed no
+set_io Q\[25\] -DIRECTION OUTPUT -pinname 55 -fixed no
+set_io Q\[26\] -DIRECTION OUTPUT -pinname 82 -fixed no
+set_io Q\[27\] -DIRECTION OUTPUT -pinname 66 -fixed no
+set_io Q\[28\] -DIRECTION OUTPUT -pinname 43 -fixed no
+set_io Q\[29\] -DIRECTION OUTPUT -pinname 87 -fixed no
+set_io Q\[30\] -DIRECTION OUTPUT -pinname 88 -fixed no
+set_io Q\[31\] -DIRECTION OUTPUT -pinname 85 -fixed no
+set_io RST -DIRECTION INPUT -pinname 49 -fixed no
+
+#
+# Core cell constraints
+#
+
+set_location Q_int\[30\] -fixed no 246 4
+set_location Q_int\[18\] -fixed no 251 7
+set_location Q_int\[31\] -fixed no 250 4
+set_location Q_int\[20\] -fixed no 243 7
+set_location Q_int\[21\] -fixed no 249 7
+set_location CLK_ibuf_RNIVQ04/U0_RGB1 -fixed no 218 6
+set_location Q_int\[3\] -fixed no 259 7
+set_location CLK_ibuf_RNIVQ04 -fixed no 219 54
+set_location Q_int\[10\] -fixed no 258 7
+set_location RST_ibuf_RNIUR47 -fixed no 221 54
+set_location Q_int\[11\] -fixed no 246 7
+set_location Q_int\[8\] -fixed no 261 7
+set_location Q_int\[25\] -fixed no 247 4
+set_location Q_int\[2\] -fixed no 263 7
+set_location Q_int\[24\] -fixed no 245 4
+set_location Q_int\[15\] -fixed no 247 7
+set_location ip_interface_inst -fixed no 191 0
+set_location Q_int\[14\] -fixed no 250 7
+set_location Q_int\[6\] -fixed no 260 7
+set_location Q_int\[1\] -fixed no 257 7
+set_location Q_int\[7\] -fixed no 256 7
+set_location Q_int\[27\] -fixed no 244 4
+set_location Q_int\[23\] -fixed no 241 4
+set_location Q_int\[9\] -fixed no 255 7
+set_location Q_int\[17\] -fixed no 245 7
+set_location Q_int\[13\] -fixed no 244 7
+set_location RST_ibuf_RNIUR47/U0_RGB1 -fixed no 219 6
+set_location Q_int\[26\] -fixed no 242 4
+set_location Q_int\[22\] -fixed no 240 7
+set_location Q_int\[29\] -fixed no 249 4
+set_location Q_int\[4\] -fixed no 254 7
+set_location flash_freeze_inst/INST_FLASH_FREEZE_IP -fixed no 396 8
+set_location Q_int\[5\] -fixed no 253 7
+set_location Q_int\[28\] -fixed no 240 4
+set_location Q_int\[16\] -fixed no 248 7
+set_location Q_int\[12\] -fixed no 241 7
+set_location Q_int\[19\] -fixed no 242 7
+set_location Q_int\[0\] -fixed no 262 7
+set_location CLK_ibuf_RNIVQ04/U0_RGB1_RGB0 -fixed no 218 3
+set_location RST_ibuf_RNIUR47/U0_RGB1_RGB0 -fixed no 219 3

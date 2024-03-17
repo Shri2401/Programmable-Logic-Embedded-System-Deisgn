@@ -1,0 +1,79 @@
+
+Starting:    C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\mbin\synbatch.exe
+Install:     C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+Hostname:    KANINS-DESKTOP
+Date:        Mon Oct 23 15:13:42 2023
+Version:     Q-2020.03M-SP1
+
+Arguments:   -product synplify_pro -licensetype synplifypro_actel -batch -log synplify.log TopLevel_syn.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel node-locked 
+Licensed Vendor: actel
+License Option: actel_oem
+
+Running in Vendor Mode
+
+auto_infer_blackbox is not supported in current product.
+log file: "C:\Microsemi_prj\project2\synthesis\TopLevel.srr"
+Running: synthesis in foreground
+
+Running TopLevel_syn|synthesis
+
+Running Flow: compile (Compile) on TopLevel_syn|synthesis
+# Mon Oct 23 15:13:42 2023
+
+Running Flow: compile_flow (Compile Process) on TopLevel_syn|synthesis
+# Mon Oct 23 15:13:42 2023
+
+Running: compiler (Compile Input) on TopLevel_syn|synthesis
+# Mon Oct 23 15:13:42 2023
+Copied C:\Microsemi_prj\project2\synthesis\synwork\TopLevel_comp.srs to C:\Microsemi_prj\project2\synthesis\TopLevel.srs
+
+compiler completed
+# Mon Oct 23 15:13:44 2023
+
+Return Code: 0
+Run Time:00h:00m:02s
+
+Running: multi_srs_gen (Multi-srs Generator) on TopLevel_syn|synthesis
+# Mon Oct 23 15:13:44 2023
+
+multi_srs_gen completed
+# Mon Oct 23 15:13:44 2023
+
+Return Code: 0
+Run Time:00h:00m:00s
+Copied C:\Microsemi_prj\project2\synthesis\synwork\TopLevel_mult.srs to C:\Microsemi_prj\project2\synthesis\TopLevel.srs
+Complete: Compile Process on TopLevel_syn|synthesis
+
+Running: premap (Premap) on TopLevel_syn|synthesis
+# Mon Oct 23 15:13:44 2023
+
+premap completed
+# Mon Oct 23 15:13:45 2023
+
+Return Code: 0
+Run Time:00h:00m:01s
+Complete: Compile on TopLevel_syn|synthesis
+
+Running Flow: map (Map) on TopLevel_syn|synthesis
+# Mon Oct 23 15:13:45 2023
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on TopLevel_syn|synthesis
+# Mon Oct 23 15:13:45 2023
+Copied C:\Microsemi_prj\project2\synthesis\synwork\TopLevel_m.srm to C:\Microsemi_prj\project2\synthesis\TopLevel.srm
+
+fpga_mapper completed
+# Mon Oct 23 15:13:47 2023
+
+Return Code: 0
+Run Time:00h:00m:02s
+Complete: Map on TopLevel_syn|synthesis
+Complete: Logic Synthesis on TopLevel_syn|synthesis
+TCL script complete: "TopLevel_syn.tcl"
+exit status=0
+exit status=0
+License checkin: synplifypro_actel

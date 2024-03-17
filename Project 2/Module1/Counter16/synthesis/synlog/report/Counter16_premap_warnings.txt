@@ -1,0 +1,1 @@
+@W: MT530 :"c:\users\itssh\desktop\micosemi_prj\counter16\hdl\counter16.v":26:2:26:7|Found inferred clock Counter16|clk which controls 16 sequential elements including Q[15:0]. This clock has no specified timing constraint which may adversely impact design performance. 

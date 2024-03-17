@@ -1,0 +1,33 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.6 (Version 12.900.20.24)
+
+Date      :  Sat Oct 14 14:47:36 2023
+Project   :  C:\Microsemi_prj\SF2Project
+Component :  SF2Project_MSS
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Microsemi_prj/SF2Project/component/work/SF2Project_MSS/SF2Project_MSS.v
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    C:/Microsemi_prj/SF2Project/component/work/SF2Project_MSS/SF2Project_MSS_syn.v
+
+HDL source files for Mentor Precision Synthesis tool:
+    C:/Microsemi_prj/SF2Project/component/work/SF2Project_MSS/SF2Project_MSS_pre.v
+
+Stimulus files for all Simulation tools:
+    C:/Microsemi_prj/SF2Project/component/work/SF2Project_MSS/CM3_compile_bfm.tcl
+    C:/Microsemi_prj/SF2Project/component/work/SF2Project_MSS/user.bfm
+    C:/Microsemi_prj/SF2Project/component/work/SF2Project_MSS/test.bfm
+    C:/Microsemi_prj/SF2Project/component/Actel/SmartFusion2MSS/MSS/1.1.500/peripheral_init.bfm
+
+Firmware files for all Software IDE tools:
+    C:/Microsemi_prj/SF2Project/component/work/SF2Project_MSS/sys_config_mss_clocks.h
+    C:/Microsemi_prj/SF2Project/component/work/SF2Project_MSS/sys_config_mddr_define.h
+
+Configuration files to be used for all Simulation tools:
+    C:/Microsemi_prj/SF2Project/component/work/SF2Project_MSS/MDDR_init.bfm
+
+Configuration files to be used for Power Analysis:
+    C:/Microsemi_prj/SF2Project/component/work/SF2Project_MSS/MDDR_init.reg
+

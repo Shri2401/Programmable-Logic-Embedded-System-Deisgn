@@ -1,0 +1,21 @@
+Software Version: 12.900.20.24
+Opened 'C:\ECEN5863\Project2\Module2\SF2MakerDemo\designer\MakerDemo\MakerDemo_fp\MakerDemo.pro'
+PDB file 'C:\ECEN5863\Project2\Module2\SF2MakerDemo\designer\MakerDemo\MakerDemo.pdb' has been loaded successfully.
+DESIGN : MakerDemo;  CHECKSUM : C470;  PDB_VERSION : 1.9
+File/Folder 'C:\ECEN5863\Project2\Module2\SF2MakerDemo\designer\MakerDemo\export\MakerDemo.stp' will be overwritten.
+Successfully exported STAPL file: 'C:\ECEN5863\Project2\Module2\SF2MakerDemo\designer\MakerDemo\export\MakerDemo.stp'; file programs Fabric.
+Fabric component bitstream digest: cf65f4c007d646b17db2f7381a5933646886275b43fc616df473dea8cae6e61c
+Finished: Fri Oct 20 19:48:48 2023 (Elapsed time 00:00:06)
+
+File/Folder 'C:\ECEN5863\Project2\Module2\SF2MakerDemo\designer\MakerDemo\export\MakerDemo.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: 'C:\ECEN5863\Project2\Module2\SF2MakerDemo\designer\MakerDemo\export\MakerDemo.ppd'; file programs Fabric.
+Fabric component bitstream digest: cf65f4c007d646b17db2f7381a5933646886275b43fc616df473dea8cae6e61c
+Finished: Fri Oct 20 19:48:56 2023 (Elapsed time 00:00:08)
+
+File/Folder 'C:\ECEN5863\Project2\Module2\SF2MakerDemo\designer\MakerDemo\export\MakerDemo.dat' will be overwritten.
+Successfully exported DirectC file: 'C:\ECEN5863\Project2\Module2\SF2MakerDemo\designer\MakerDemo\export\MakerDemo.dat'; file programs Fabric.
+Fabric component bitstream digest: cf65f4c007d646b17db2f7381a5933646886275b43fc616df473dea8cae6e61c
+Finished: Fri Oct 20 19:49:02 2023 (Elapsed time 00:00:06)
+
+Project saved.
+Project closed.

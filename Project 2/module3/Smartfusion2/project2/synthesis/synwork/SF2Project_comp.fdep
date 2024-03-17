@@ -1,0 +1,25 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Microsemi_prj\\SF2Project\\synthesis\\synwork\\SF2Project_comp.srs|-top|SF2Project|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-I|C:\\Microsemi_prj\\SF2Project\\synthesis\\|-I|C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib|-sysv|-devicelib|C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\generic\\smartfusion2.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\bin64\\c_ver.exe":1604390270
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\generic\\smartfusion2.v":1604390290
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\vlog\\hypermods.v":1604390293
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\vlog\\umr_capim.v":1604390293
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1604390293
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1604390293
+#CUR:"C:\\Microsemi_prj\\SF2Project\\component\\work\\SF2Project_MSS\\SF2Project_MSS_syn.v":1697316454
+#CUR:"C:\\Microsemi_prj\\SF2Project\\component\\work\\SF2Project_MSS\\SF2Project_MSS.v":1697316455
+#CUR:"C:\\Microsemi_prj\\SF2Project\\component\\work\\SF2Project\\SF2Project.v":1697316583
+0			"C:\Microsemi_prj\SF2Project\component\work\SF2Project_MSS\SF2Project_MSS_syn.v" verilog
+1			"C:\Microsemi_prj\SF2Project\component\work\SF2Project_MSS\SF2Project_MSS.v" verilog
+2			"C:\Microsemi_prj\SF2Project\component\work\SF2Project\SF2Project.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 0
+2 1
+#Dependency Lists(Users Of)
+0 1
+1 2
+2 -1
+#Design Unit to File Association
+module work SF2Project 2
+module work SF2Project_MSS 1
+module work MSS_010 0

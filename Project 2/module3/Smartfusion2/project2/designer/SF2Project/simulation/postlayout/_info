@@ -1,0 +1,227 @@
+m255
+K4
+z2
+!s11f vlog 2020.3 2020.07, Jul 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Microsemi_prj/SF2Project/simulation
+vsdf_IOPAD_BI
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1697316744
+!i10b 1
+!s100 XPO_0PLMEFgL;1AYLI[Zc1
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IbmH46oG0_:;O2l>9I:D0K0
+S1
+R0
+Z4 w1697316734
+Z5 8C:/Microsemi_prj/SF2Project/designer/SF2Project/SF2Project_ba.v
+Z6 FC:/Microsemi_prj/SF2Project/designer/SF2Project/SF2Project_ba.v
+!i122 0
+L0 48 21
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OW;L;2020.3;71
+r1
+!s85 0
+31
+Z9 !s108 1697316744.000000
+!s107 C:/Microsemi_prj/SF2Project/designer/SF2Project/SF2Project_ba.v|
+Z10 !s90 -reportprogress|300|-sv|-work|postlayout|C:/Microsemi_prj/SF2Project/designer/SF2Project/SF2Project_ba.v|
+!s101 -O0
+!i113 1
+Z11 o-sv -work postlayout -O0
+Z12 tCvgOpt 0
+nsdf_@i@o@p@a@d_@b@i
+vsdf_IOPAD_IN
+R1
+R2
+!i10b 1
+!s100 oWNCI]`fJOk7K6:6`GcX92
+R3
+IGdGle>dn_T<1`=K`>Y``X1
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 90 18
+R7
+R8
+r1
+!s85 0
+31
+R9
+Z13 !s107 C:/Microsemi_prj/SF2Project/designer/SF2Project/SF2Project_ba.v|
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+nsdf_@i@o@p@a@d_@i@n
+vsdf_IOPAD_TRI
+R1
+R2
+!i10b 1
+!s100 XG8gYc7=WZMP6D0_EMIfM3
+R3
+IJlL4e5dC2l[>E^=OEE:FE3
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 6 17
+R7
+R8
+r1
+!s85 0
+31
+R9
+R13
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+nsdf_@i@o@p@a@d_@t@r@i
+vsdf_IOPADN_BI
+R1
+R2
+!i10b 1
+!s100 dU3O`RbVMgdmTXbmma8^e1
+R3
+ImD;1M;PiBTglZEaa;^KlT1
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 25 21
+R7
+R8
+r1
+!s85 0
+31
+R9
+R13
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+nsdf_@i@o@p@a@d@n_@b@i
+vsdf_IOPADN_TRI
+R1
+R2
+!i10b 1
+!s100 4F<cVO]6NlASgIfOgSn`o2
+R3
+IYTVm_;hSNHfC<00k9RU7B1
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 71 17
+R7
+R8
+r1
+!s85 0
+31
+R9
+R13
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+nsdf_@i@o@p@a@d@n_@t@r@i
+vsdf_IOPADP_BI
+R1
+R2
+!i10b 1
+!s100 99m3L^INGWhHNY:nFVZkT3
+R3
+IziIU7CK^f:>?k0P61CkYQ3
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 110 23
+R7
+R8
+r1
+!s85 0
+31
+R9
+R13
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+nsdf_@i@o@p@a@d@p_@b@i
+vsdf_IOPADP_TRI
+R1
+R2
+!i10b 1
+!s100 Dm`KZ]V_1@@alOSGMQAn=1
+R3
+I;B9X@SojRnkEnAl5o0gnT0
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 135 17
+R7
+R8
+r1
+!s85 0
+31
+R9
+R13
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+nsdf_@i@o@p@a@d@p_@t@r@i
+vSF2Project
+R1
+R2
+!i10b 1
+!s100 liS6OcoFO2JNKVhRW^K0G2
+R3
+IahnWIVDz]be`O<:V^k;>E0
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 154 3855
+R7
+R8
+r1
+!s85 0
+31
+R9
+R13
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+n@s@f2@project

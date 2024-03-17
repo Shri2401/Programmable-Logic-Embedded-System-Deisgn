@@ -1,0 +1,222 @@
+//
+// Written by Synplify Pro 
+// Product Version "Q-2020.03M-SP1"
+// Program "Synplify Pro", Mapper "map202003act, Build 160R"
+// Sat Oct 14 15:22:12 2023
+//
+// Source file index table:
+// Object locations will have the form <file>:<line>
+// file 0 "\c:\microsemi\libero_soc_v12.6\synplifypro\lib\generic\smartfusion2.v "
+// file 1 "\c:\microsemi\libero_soc_v12.6\synplifypro\lib\vlog\hypermods.v "
+// file 2 "\c:\microsemi\libero_soc_v12.6\synplifypro\lib\vlog\umr_capim.v "
+// file 3 "\c:\microsemi\libero_soc_v12.6\synplifypro\lib\vlog\scemi_objects.v "
+// file 4 "\c:\microsemi\libero_soc_v12.6\synplifypro\lib\vlog\scemi_pipes.svh "
+// file 5 "\c:\microsemi_prj\sf2project\hdl\hw2p7.v "
+// file 6 "\c:\microsemi\libero_soc_v12.6\synplifypro\lib\nlconst.dat "
+// file 7 "\c:\microsemi_prj\sf2project\designer\hw2p7\synthesis.fdc "
+
+`timescale 100 ps/100 ps
+module HW2P7 (
+  CP,
+  SR,
+  P,
+  PE,
+  CEP,
+  CET,
+  Q,
+  TC
+)
+;
+input CP ;
+input SR ;
+input [3:0] P ;
+input PE ;
+input CEP ;
+input CET ;
+output [3:0] Q ;
+output TC ;
+wire CP ;
+wire SR ;
+wire PE ;
+wire CEP ;
+wire CET ;
+wire TC ;
+wire [3:0] count_temp_5_Z;
+wire NN_1 ;
+wire GND ;
+wire TC_temp_0_sqmuxa_Z ;
+wire VCC ;
+wire N_12 ;
+wire N_13 ;
+wire N_14 ;
+wire N_15 ;
+wire \un1_count_temp_2_1.CO0_Z  ;
+wire TC_temp_0_sqmuxa_1_0_Z ;
+  CLKINT CP_RNIJ72 (
+	.Y(NN_1),
+	.A(CP)
+);
+// @5:35
+  SLE \count_temp[3]  (
+	.Q(Q[3]),
+	.ADn(VCC),
+	.ALn(SR),
+	.CLK(NN_1),
+	.D(count_temp_5_Z[3]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:35
+  SLE TC_temp (
+	.Q(TC),
+	.ADn(VCC),
+	.ALn(SR),
+	.CLK(NN_1),
+	.D(TC_temp_0_sqmuxa_Z),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:35
+  SLE \count_temp[0]  (
+	.Q(Q[0]),
+	.ADn(VCC),
+	.ALn(SR),
+	.CLK(NN_1),
+	.D(count_temp_5_Z[0]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:35
+  SLE \count_temp[1]  (
+	.Q(Q[1]),
+	.ADn(VCC),
+	.ALn(SR),
+	.CLK(NN_1),
+	.D(count_temp_5_Z[1]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:35
+  SLE \count_temp[2]  (
+	.Q(Q[2]),
+	.ADn(VCC),
+	.ALn(SR),
+	.CLK(NN_1),
+	.D(count_temp_5_Z[2]),
+	.EN(VCC),
+	.LAT(GND),
+	.SD(GND),
+	.SLn(VCC)
+);
+// @5:46
+  CFG4 \un1_count_temp_2_1.SUM[1]  (
+	.A(CEP),
+	.B(CET),
+	.C(Q[0]),
+	.D(Q[1]),
+	.Y(N_13)
+);
+defparam \un1_count_temp_2_1.SUM[1] .INIT=16'h7F80;
+// @5:49
+  CFG4 TC_temp_0_sqmuxa (
+	.A(Q[1]),
+	.B(TC_temp_0_sqmuxa_1_0_Z),
+	.C(TC),
+	.D(Q[2]),
+	.Y(TC_temp_0_sqmuxa_Z)
+);
+defparam TC_temp_0_sqmuxa.INIT=16'h0800;
+// @5:49
+  CFG4 TC_temp_0_sqmuxa_1_0 (
+	.A(CET),
+	.B(CEP),
+	.C(Q[3]),
+	.D(Q[0]),
+	.Y(TC_temp_0_sqmuxa_1_0_Z)
+);
+defparam TC_temp_0_sqmuxa_1_0.INIT=16'h00E0;
+// @5:46
+  CFG3 \un1_count_temp_2_1.SUM[0]  (
+	.A(CEP),
+	.B(Q[0]),
+	.C(CET),
+	.Y(N_12)
+);
+defparam \un1_count_temp_2_1.SUM[0] .INIT=8'h6C;
+// @5:46
+  CFG3 \un1_count_temp_2_1.CO0  (
+	.A(CEP),
+	.B(Q[0]),
+	.C(CET),
+	.Y(\un1_count_temp_2_1.CO0_Z )
+);
+defparam \un1_count_temp_2_1.CO0 .INIT=8'h80;
+// @5:46
+  CFG3 \un1_count_temp_2_1.SUM[2]  (
+	.A(Q[1]),
+	.B(\un1_count_temp_2_1.CO0_Z ),
+	.C(Q[2]),
+	.Y(N_14)
+);
+defparam \un1_count_temp_2_1.SUM[2] .INIT=8'h78;
+// @5:36
+  CFG4 \count_temp_5[0]  (
+	.A(TC),
+	.B(N_12),
+	.C(P[0]),
+	.D(PE),
+	.Y(count_temp_5_Z[0])
+);
+defparam \count_temp_5[0] .INIT=16'h4450;
+// @5:46
+  CFG4 \un1_count_temp_2_1.SUM[3]  (
+	.A(Q[1]),
+	.B(\un1_count_temp_2_1.CO0_Z ),
+	.C(Q[3]),
+	.D(Q[2]),
+	.Y(N_15)
+);
+defparam \un1_count_temp_2_1.SUM[3] .INIT=16'h78F0;
+// @5:36
+  CFG4 \count_temp_5[1]  (
+	.A(TC),
+	.B(N_13),
+	.C(P[1]),
+	.D(PE),
+	.Y(count_temp_5_Z[1])
+);
+defparam \count_temp_5[1] .INIT=16'h4450;
+// @5:36
+  CFG4 \count_temp_5[2]  (
+	.A(TC),
+	.B(N_14),
+	.C(P[2]),
+	.D(PE),
+	.Y(count_temp_5_Z[2])
+);
+defparam \count_temp_5[2] .INIT=16'h4450;
+// @5:36
+  CFG4 \count_temp_5[3]  (
+	.A(TC),
+	.B(N_15),
+	.C(P[3]),
+	.D(PE),
+	.Y(count_temp_5_Z[3])
+);
+defparam \count_temp_5[3] .INIT=16'h4450;
+  GND GND_Z (
+	.Y(GND)
+);
+  VCC VCC_Z (
+	.Y(VCC)
+);
+endmodule /* HW2P7 */
+

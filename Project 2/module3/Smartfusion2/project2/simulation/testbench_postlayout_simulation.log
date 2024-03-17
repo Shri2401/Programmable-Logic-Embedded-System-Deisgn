@@ -1,0 +1,104 @@
+# Reading pref.tcl
+# do run.do
+# INFO: Simulation library ../designer/HW2P7/simulation/postlayout already exists
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap postlayout ../designer/HW2P7/simulation/postlayout 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 2020.3 Lib Mapping Utility 2020.07 Jul 13 2020
+# vmap SmartFusion2 C:/Microsemi/Libero_SoC_v12.6/Designer/lib/modelsimpro/precompiled/vlog/SmartFusion2 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vlog 2020.3 Compiler 2020.07 Jul 13 2020
+# Start time: 15:24:13 on Oct 14,2023
+# vlog -reportprogress 300 -sv -work postlayout C:/Microsemi_prj/SF2Project/designer/HW2P7/HW2P7_ba.v 
+# -- Compiling module HW2P7
+# 
+# Top level modules:
+# 	HW2P7
+# End time: 15:24:13 on Oct 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L SmartFusion2 -L postlayout -t 1fs -sdfmax "/HW2P7=C:/Microsemi_prj/SF2Project/designer/HW2P7/HW2P7_ba.sdf" "+transport_path_delays" postlayout.HW2P7 
+# Start time: 15:24:13 on Oct 14,2023
+# //  ModelSim Microsemi 2020.3 Jul 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim Microsemi and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading postlayout.HW2P7
+# Loading SmartFusion2.CFG3
+# Loading SmartFusion2.CFG1
+# Loading SmartFusion2.CFG4
+# Loading SmartFusion2.SLE
+# Loading SmartFusion2.SLE_Prim
+# Loading SmartFusion2.RGB_NG
+# Loading SmartFusion2.INV_BA
+# Loading SmartFusion2.GB_NG
+# Loading SmartFusion2.GND
+# Loading SmartFusion2.VCC
+# SDF 2020.3 Compiler 2020.07 Jul 13 2020
+# 
+# Loading instances from C:/Microsemi_prj/SF2Project/designer/HW2P7/HW2P7_ba.sdf
+# Loading SmartFusion2.UDP_MUX2
+# Loading SmartFusion2.UDP_DFF
+# Loading SmartFusion2.UDP_DL
+# Loading timing data from C:/Microsemi_prj/SF2Project/designer/HW2P7/HW2P7_ba.sdf
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 fs  Iteration: 0  Instance: /HW2P7 File: C:/Microsemi_prj/SF2Project/designer/HW2P7/HW2P7_ba.v
+# Load canceled
+vsim -L SmartFusion2 -L postlayout -t ns -sdfmax /HW2P7=C:/Microsemi_prj/SF2Project/designer/HW2P7/HW2P7_ba.sdf +transport_path_delays postlayout.HW2P7
+# End time: 15:24:59 on Oct 14,2023, Elapsed time: 0:00:46
+# Errors: 0, Warnings: 0
+# vsim -L SmartFusion2 -L postlayout -t ns -sdfmax "/HW2P7=C:/Microsemi_prj/SF2Project/designer/HW2P7/HW2P7_ba.sdf" "+transport_path_delays" postlayout.HW2P7 
+# Start time: 15:24:59 on Oct 14,2023
+# Loading sv_std.std
+# Loading postlayout.HW2P7
+# Loading SmartFusion2.CFG3
+# Loading SmartFusion2.CFG1
+# Loading SmartFusion2.CFG4
+# Loading SmartFusion2.SLE
+# Loading SmartFusion2.SLE_Prim
+# Loading SmartFusion2.RGB_NG
+# Loading SmartFusion2.INV_BA
+# Loading SmartFusion2.GB_NG
+# Loading SmartFusion2.GND
+# Loading SmartFusion2.VCC
+# Loading instances from C:/Microsemi_prj/SF2Project/designer/HW2P7/HW2P7_ba.sdf
+# Loading SmartFusion2.UDP_MUX2
+# Loading SmartFusion2.UDP_DFF
+# Loading SmartFusion2.UDP_DL
+# Loading timing data from C:/Microsemi_prj/SF2Project/designer/HW2P7/HW2P7_ba.sdf
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ns  Iteration: 0  Instance: /HW2P7 File: C:/Microsemi_prj/SF2Project/designer/HW2P7/HW2P7_ba.v
+add wave -position end  sim:/HW2P7/CP
+add wave -position end  sim:/HW2P7/SR
+add wave -position end  sim:/HW2P7/P
+add wave -position end  sim:/HW2P7/PE
+add wave -position end  sim:/HW2P7/CEP
+add wave -position end  sim:/HW2P7/CET
+add wave -position end  sim:/HW2P7/Q
+add wave -position end  sim:/HW2P7/TC
+force -freeze sim:/HW2P7/CP 1 0, 0 {25 ns} -r 50
+force -freeze sim:/HW2P7/SR 0 0
+force -freeze sim:/HW2P7/P 4 0
+force -freeze sim:/HW2P7/PE 1 0
+force -freeze sim:/HW2P7/CEP 1 0
+force -freeze sim:/HW2P7/CET 1 0
+run
+force -freeze sim:/HW2P7/SR 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run

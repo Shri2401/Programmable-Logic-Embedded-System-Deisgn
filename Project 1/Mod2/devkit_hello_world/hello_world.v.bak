@@ -1,0 +1,13 @@
+`timescale 1 ps/1 ps
+module hello_world (
+
+	//clock
+	input  MAX10_CLK1_50,
+	
+	// SWITCHES AND LED
+	
+	input [1:0] SW,
+	
+	output [1:0] LEDR);
+	
+	endmodule

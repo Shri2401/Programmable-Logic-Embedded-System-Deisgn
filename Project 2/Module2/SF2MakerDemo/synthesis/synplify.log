@@ -1,0 +1,80 @@
+One matching license found for this product: synplifypro_actel
+
+Starting:    C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\mbin\synbatch.exe
+Install:     C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+Hostname:    X03103
+Date:        Fri Oct 20 19:34:23 2023
+Version:     Q-2020.03M-SP1
+
+Arguments:   -product synplify_pro -batch -log synplify.log MakerDemo_syn.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel node-locked 
+Licensed Vendor: actel
+License Option: actel_oem
+
+Running in Vendor Mode
+
+auto_infer_blackbox is not supported in current product.
+log file: "C:\ECEN5863\Project2\Module2\SF2MakerDemo\synthesis\MakerDemo.srr"
+Running: synthesis in foreground
+
+Running MakerDemo_syn|synthesis
+
+Running Flow: compile (Compile) on MakerDemo_syn|synthesis
+# Fri Oct 20 19:34:24 2023
+
+Running Flow: compile_flow (Compile Process) on MakerDemo_syn|synthesis
+# Fri Oct 20 19:34:24 2023
+
+Running: compiler (Compile Input) on MakerDemo_syn|synthesis
+# Fri Oct 20 19:34:24 2023
+Copied C:\ECEN5863\Project2\Module2\SF2MakerDemo\synthesis\synwork\MakerDemo_comp.srs to C:\ECEN5863\Project2\Module2\SF2MakerDemo\synthesis\MakerDemo.srs
+
+compiler completed
+# Fri Oct 20 19:34:30 2023
+
+Return Code: 0
+Run Time:00h:00m:06s
+
+Running: multi_srs_gen (Multi-srs Generator) on MakerDemo_syn|synthesis
+# Fri Oct 20 19:34:30 2023
+
+multi_srs_gen completed
+# Fri Oct 20 19:34:30 2023
+
+Return Code: 0
+Run Time:00h:00m:00s
+Copied C:\ECEN5863\Project2\Module2\SF2MakerDemo\synthesis\synwork\MakerDemo_mult.srs to C:\ECEN5863\Project2\Module2\SF2MakerDemo\synthesis\MakerDemo.srs
+Complete: Compile Process on MakerDemo_syn|synthesis
+
+Running: premap (Premap) on MakerDemo_syn|synthesis
+# Fri Oct 20 19:34:30 2023
+
+premap completed with warnings
+# Fri Oct 20 19:34:34 2023
+
+Return Code: 1
+Run Time:00h:00m:04s
+Complete: Compile on MakerDemo_syn|synthesis
+
+Running Flow: map (Map) on MakerDemo_syn|synthesis
+# Fri Oct 20 19:34:34 2023
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on MakerDemo_syn|synthesis
+# Fri Oct 20 19:34:34 2023
+Copied C:\ECEN5863\Project2\Module2\SF2MakerDemo\synthesis\synwork\MakerDemo_m.srm to C:\ECEN5863\Project2\Module2\SF2MakerDemo\synthesis\MakerDemo.srm
+
+fpga_mapper completed with warnings
+# Fri Oct 20 19:34:43 2023
+
+Return Code: 1
+Run Time:00h:00m:09s
+Complete: Map on MakerDemo_syn|synthesis
+Complete: Logic Synthesis on MakerDemo_syn|synthesis
+TCL script complete: "MakerDemo_syn.tcl"
+exit status=0
+exit status=0
+License checkin: synplifypro_actel

@@ -1,0 +1,7 @@
+module Lab1Part1(x,y,s,m);
+input [3:0]x; 
+input [3:0]y; 
+input s; 
+output [3:0] m;
+assign m = (~s & x) | (s & y);
+endmodule

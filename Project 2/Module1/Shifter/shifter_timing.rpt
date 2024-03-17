@@ -1,0 +1,721 @@
+Timing Report Max Delay Analysis
+
+SmartTime Version v12.6
+Microsemi Corporation - Microsemi Libero Software Release v12.6 (Version 12.900.20.24)
+Date: Tue Oct 17 17:47:33 2023
+
+
+Design: Shifter
+Family: SmartFusion2
+Die: M2S010
+Package: 144 TQ
+Temperature Range: 0 - 85 C
+Voltage Range: 1.14 - 1.26 V
+Speed Grade: STD
+Design State: Post-Layout
+Data source: Production
+Min Operating Conditions: BEST - 1.26 V - 0 C
+Max Operating Conditions: WORST - 1.14 V - 85 C
+Scenario for Timing Analysis: timing_analysis
+
+
+-----------------------------------------------------
+SUMMARY
+
+Clock Domain:               clk
+Period (ns):                3.386
+Frequency (MHz):            295.334
+Required Period (ns):       10.000
+Required Frequency (MHz):   100.000
+External Setup (ns):        1.523
+Max Clock-To-Out (ns):      8.436
+
+                            Input to Output
+Max Delay (ns):             N/A
+
+END SUMMARY
+-----------------------------------------------------
+
+Clock Domain clk
+
+SET Register to Register
+
+Path 1
+  From: ld_reg:CLK
+  To:   Qout_Z[12]:EN
+  Delay (ns):              1.490
+  Slack (ns):              3.307
+  Arrival (ns):            4.346
+  Required (ns):           7.653
+  Setup (ns):              0.363
+  Minimum Period (ns):     3.386
+
+Path 2
+  From: ld_reg:CLK
+  To:   Qout_Z[15]:EN
+  Delay (ns):              1.490
+  Slack (ns):              3.307
+  Arrival (ns):            4.346
+  Required (ns):           7.653
+  Setup (ns):              0.363
+  Minimum Period (ns):     3.386
+
+Path 3
+  From: ld_reg:CLK
+  To:   Qout_Z[8]:EN
+  Delay (ns):              1.490
+  Slack (ns):              3.308
+  Arrival (ns):            4.346
+  Required (ns):           7.654
+  Setup (ns):              0.363
+  Minimum Period (ns):     3.384
+
+Path 4
+  From: ld_reg:CLK
+  To:   Qout_Z[9]:EN
+  Delay (ns):              1.490
+  Slack (ns):              3.308
+  Arrival (ns):            4.346
+  Required (ns):           7.654
+  Setup (ns):              0.363
+  Minimum Period (ns):     3.384
+
+Path 5
+  From: ld_reg:CLK
+  To:   Qout_Z[10]:EN
+  Delay (ns):              1.490
+  Slack (ns):              3.321
+  Arrival (ns):            4.346
+  Required (ns):           7.667
+  Setup (ns):              0.363
+  Minimum Period (ns):     3.358
+
+Path 6
+  From: ld_reg:CLK
+  To:   Qout_Z[11]:EN
+  Delay (ns):              1.453
+  Slack (ns):              3.321
+  Arrival (ns):            4.309
+  Required (ns):           7.630
+  Setup (ns):              0.363
+  Minimum Period (ns):     3.358
+
+Path 7
+  From: ld_reg:CLK
+  To:   Qout_Z[6]:EN
+  Delay (ns):              1.490
+  Slack (ns):              3.321
+  Arrival (ns):            4.346
+  Required (ns):           7.667
+  Setup (ns):              0.363
+  Minimum Period (ns):     3.358
+
+Path 8
+  From: ld_reg:CLK
+  To:   Qout_Z[7]:EN
+  Delay (ns):              1.490
+  Slack (ns):              3.321
+  Arrival (ns):            4.346
+  Required (ns):           7.667
+  Setup (ns):              0.363
+  Minimum Period (ns):     3.358
+
+Path 9
+  From: ld_reg:CLK
+  To:   Qout_Z[13]:EN
+  Delay (ns):              1.453
+  Slack (ns):              3.330
+  Arrival (ns):            4.309
+  Required (ns):           7.639
+  Setup (ns):              0.363
+  Minimum Period (ns):     3.340
+
+Path 10
+  From: ld_reg:CLK
+  To:   Qout_Z[14]:EN
+  Delay (ns):              1.453
+  Slack (ns):              3.330
+  Arrival (ns):            4.309
+  Required (ns):           7.639
+  Setup (ns):              0.363
+  Minimum Period (ns):     3.340
+
+Path 11
+  From: ld_reg:CLK
+  To:   Qout_Z[1]:EN
+  Delay (ns):              1.269
+  Slack (ns):              3.507
+  Arrival (ns):            4.125
+  Required (ns):           7.632
+  Setup (ns):              0.363
+  Minimum Period (ns):     2.986
+
+Path 12
+  From: ld_reg:CLK
+  To:   Qout_Z[2]:EN
+  Delay (ns):              1.269
+  Slack (ns):              3.507
+  Arrival (ns):            4.125
+  Required (ns):           7.632
+  Setup (ns):              0.363
+  Minimum Period (ns):     2.986
+
+Path 13
+  From: ld_reg:CLK
+  To:   Qout_Z[3]:EN
+  Delay (ns):              1.269
+  Slack (ns):              3.507
+  Arrival (ns):            4.125
+  Required (ns):           7.632
+  Setup (ns):              0.363
+  Minimum Period (ns):     2.986
+
+Path 14
+  From: ld_reg:CLK
+  To:   Qout_Z[5]:EN
+  Delay (ns):              1.269
+  Slack (ns):              3.507
+  Arrival (ns):            4.125
+  Required (ns):           7.632
+  Setup (ns):              0.363
+  Minimum Period (ns):     2.986
+
+Path 15
+  From: ld_reg:CLK
+  To:   Qout_Z[0]:EN
+  Delay (ns):              1.269
+  Slack (ns):              3.518
+  Arrival (ns):            4.125
+  Required (ns):           7.643
+  Setup (ns):              0.363
+  Minimum Period (ns):     2.964
+
+Path 16
+  From: ld_reg:CLK
+  To:   Qout_Z[4]:EN
+  Delay (ns):              1.269
+  Slack (ns):              3.520
+  Arrival (ns):            4.125
+  Required (ns):           7.645
+  Setup (ns):              0.363
+  Minimum Period (ns):     2.960
+
+Path 17
+  From: Q[15]:CLK
+  To:   Qout_Z[15]:D
+  Delay (ns):              0.878
+  Slack (ns):              3.963
+  Arrival (ns):            3.754
+  Required (ns):           7.717
+  Setup (ns):              0.299
+  Minimum Period (ns):     2.074
+
+Path 18
+  From: Q[4]:CLK
+  To:   Qout_Z[4]:D
+  Delay (ns):              0.713
+  Slack (ns):              4.136
+  Arrival (ns):            3.574
+  Required (ns):           7.710
+  Setup (ns):              0.298
+  Minimum Period (ns):     1.728
+
+Path 19
+  From: Q[5]:CLK
+  To:   Qout_Z[5]:D
+  Delay (ns):              0.701
+  Slack (ns):              4.140
+  Arrival (ns):            3.557
+  Required (ns):           7.697
+  Setup (ns):              0.298
+  Minimum Period (ns):     1.720
+
+Path 20
+  From: Q[12]:CLK
+  To:   Qout_Z[12]:D
+  Delay (ns):              0.675
+  Slack (ns):              4.152
+  Arrival (ns):            3.565
+  Required (ns):           7.717
+  Setup (ns):              0.299
+  Minimum Period (ns):     1.696
+
+
+Expanded Path 1
+  From: ld_reg:CLK
+  To: Qout_Z[12]:EN
+  data required time                                  7.653
+  data arrival time                          -        4.346
+  slack                                               3.307
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        clk
+               +     0.000          Clock source
+  0.000                        clk (r)
+               +     0.000          net: clk
+  0.000                        clk_ibuf/U0/U_IOPAD:PAD (r)
+               +     1.497          cell: ADLIB:IOPAD_IN
+  1.497                        clk_ibuf/U0/U_IOPAD:Y (r)
+               +     0.063          net: clk_ibuf_Z
+  1.560                        clk_ibuf_RNIVTI2:An (f)
+               +     0.101          cell: ADLIB:GB
+  1.661                        clk_ibuf_RNIVTI2:YSn (f)
+               +     0.329          net: clk_ibuf_RNIVTI2/U0_YNn_GSouth
+  1.990                        clk_ibuf_RNIVTI2/U0_RGB1_RGB0:An (f)
+               +     0.295          cell: ADLIB:RGB
+  2.285                        clk_ibuf_RNIVTI2/U0_RGB1_RGB0:YL (r)
+               +     0.571          net: clk_ibuf_RNIVTI2/U0_RGB1_RGB0_rgbl_net_1
+  2.856                        ld_reg:CLK (r)
+               +     0.127          cell: ADLIB:SLE
+  2.983                        ld_reg:Q (f)
+               +     0.373          net: ld_reg_Z
+  3.356                        ld_reg_or:A (f)
+               +     0.102          cell: ADLIB:CFG2
+  3.458                        ld_reg_or:Y (f)
+               +     0.888          net: ld_reg_or_Z
+  4.346                        Qout_Z[12]:EN (f)
+                                    
+  4.346                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  5.000                        clk
+               +     0.000          Clock source
+  5.000                        clk (f)
+               +     0.000          net: clk
+  5.000                        clk_ibuf/U0/U_IOPAD:PAD (f)
+               +     1.647          cell: ADLIB:IOPAD_IN
+  6.647                        clk_ibuf/U0/U_IOPAD:Y (f)
+               +     0.116          net: clk_ibuf_Z
+  6.763                        clk_ibuf_RNIVTI2:An (r)
+               +     0.096          cell: ADLIB:GB
+  6.859                        clk_ibuf_RNIVTI2:YSn (r)
+               +     0.325          net: clk_ibuf_RNIVTI2/U0_YNn_GSouth
+  7.184                        clk_ibuf_RNIVTI2/U0_RGB1_RGB1:An (r)
+               +     0.215          cell: ADLIB:RGB
+  7.399                        clk_ibuf_RNIVTI2/U0_RGB1_RGB1:YL (f)
+               +     0.617          net: clk_ibuf_RNIVTI2/U0_RGB1_RGB1_rgbl_net_1
+  8.016                        Qout_Z[12]:CLK (r)
+               -     0.363          Library setup time: ADLIB:SLE
+  7.653                        Qout_Z[12]:EN
+                                    
+  7.653                        data required time
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+Path 1
+  From: reset
+  To:   Q[14]:SLn
+  Delay (ns):              3.668
+  Arrival (ns):            3.668
+  Setup (ns):              0.644
+  External Setup (ns):     1.523
+
+Path 2
+  From: reset
+  To:   Q[15]:SLn
+  Delay (ns):              3.668
+  Arrival (ns):            3.668
+  Setup (ns):              0.644
+  External Setup (ns):     1.523
+
+Path 3
+  From: reset
+  To:   Q[11]:SLn
+  Delay (ns):              3.667
+  Arrival (ns):            3.667
+  Setup (ns):              0.644
+  External Setup (ns):     1.522
+
+Path 4
+  From: reset
+  To:   Q[13]:SLn
+  Delay (ns):              3.668
+  Arrival (ns):            3.668
+  Setup (ns):              0.644
+  External Setup (ns):     1.511
+
+Path 5
+  From: reset
+  To:   Q[12]:SLn
+  Delay (ns):              3.668
+  Arrival (ns):            3.668
+  Setup (ns):              0.644
+  External Setup (ns):     1.509
+
+Path 6
+  From: reset
+  To:   Q[6]:SLn
+  Delay (ns):              3.668
+  Arrival (ns):            3.668
+  Setup (ns):              0.644
+  External Setup (ns):     1.509
+
+Path 7
+  From: reset
+  To:   Q[10]:SLn
+  Delay (ns):              3.667
+  Arrival (ns):            3.667
+  Setup (ns):              0.644
+  External Setup (ns):     1.508
+
+Path 8
+  From: reset
+  To:   Qout_Z[11]:SLn
+  Delay (ns):              3.668
+  Arrival (ns):            3.668
+  Setup (ns):              0.644
+  External Setup (ns):     1.390
+
+Path 9
+  From: reset
+  To:   Qout_Z[13]:SLn
+  Delay (ns):              3.668
+  Arrival (ns):            3.668
+  Setup (ns):              0.644
+  External Setup (ns):     1.381
+
+Path 10
+  From: reset
+  To:   Qout_Z[14]:SLn
+  Delay (ns):              3.668
+  Arrival (ns):            3.668
+  Setup (ns):              0.644
+  External Setup (ns):     1.381
+
+Path 11
+  From: enable
+  To:   Q[5]:EN
+  Delay (ns):              3.797
+  Arrival (ns):            3.797
+  Setup (ns):              0.299
+  External Setup (ns):     1.326
+
+Path 12
+  From: reset
+  To:   Q[5]:EN
+  Delay (ns):              3.771
+  Arrival (ns):            3.771
+  Setup (ns):              0.299
+  External Setup (ns):     1.300
+
+Path 13
+  From: enable
+  To:   Q[11]:EN
+  Delay (ns):              3.552
+  Arrival (ns):            3.552
+  Setup (ns):              0.363
+  External Setup (ns):     1.126
+
+Path 14
+  From: enable
+  To:   Q[14]:EN
+  Delay (ns):              3.552
+  Arrival (ns):            3.552
+  Setup (ns):              0.363
+  External Setup (ns):     1.126
+
+Path 15
+  From: enable
+  To:   Q[15]:EN
+  Delay (ns):              3.552
+  Arrival (ns):            3.552
+  Setup (ns):              0.363
+  External Setup (ns):     1.126
+
+Path 16
+  From: enable
+  To:   Q[4]:EN
+  Delay (ns):              3.535
+  Arrival (ns):            3.535
+  Setup (ns):              0.363
+  External Setup (ns):     1.123
+
+Path 17
+  From: enable
+  To:   Q[9]:EN
+  Delay (ns):              3.537
+  Arrival (ns):            3.537
+  Setup (ns):              0.363
+  External Setup (ns):     1.121
+
+Path 18
+  From: enable
+  To:   Q[13]:EN
+  Delay (ns):              3.552
+  Arrival (ns):            3.552
+  Setup (ns):              0.363
+  External Setup (ns):     1.114
+
+Path 19
+  From: enable
+  To:   Q[0]:EN
+  Delay (ns):              3.535
+  Arrival (ns):            3.535
+  Setup (ns):              0.363
+  External Setup (ns):     1.113
+
+Path 20
+  From: enable
+  To:   Q[2]:EN
+  Delay (ns):              3.535
+  Arrival (ns):            3.535
+  Setup (ns):              0.363
+  External Setup (ns):     1.113
+
+
+Expanded Path 1
+  From: reset
+  To: Q[14]:SLn
+  data required time                                    N/C
+  data arrival time                          -        3.668
+  slack                                                 N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        reset (r)
+               +     0.000          net: reset
+  0.000                        reset_ibuf/U0/U_IOPAD:PAD (r)
+               +     0.858          cell: ADLIB:IOPAD_IN
+  0.858                        reset_ibuf/U0/U_IOPAD:Y (r)
+               +     0.050          net: reset_ibuf/U0/YIN1
+  0.908                        reset_ibuf/U0/U_IOINFF:A (r)
+               +     0.092          cell: ADLIB:IOINFF_BYPASS
+  1.000                        reset_ibuf/U0/U_IOINFF:Y (r)
+               +     2.668          net: reset_c
+  3.668                        Q[14]:SLn (f)
+                                    
+  3.668                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          clk
+               +     0.000          Clock source
+  N/C                          clk (r)
+               +     0.000          net: clk
+  N/C                          clk_ibuf/U0/U_IOPAD:PAD (r)
+               +     1.452          cell: ADLIB:IOPAD_IN
+  N/C                          clk_ibuf/U0/U_IOPAD:Y (r)
+               +     0.061          net: clk_ibuf_Z
+  N/C                          clk_ibuf_RNIVTI2:An (f)
+               +     0.098          cell: ADLIB:GB
+  N/C                          clk_ibuf_RNIVTI2:YSn (f)
+               +     0.326          net: clk_ibuf_RNIVTI2/U0_YNn_GSouth
+  N/C                          clk_ibuf_RNIVTI2/U0_RGB1_RGB2:An (f)
+               +     0.286          cell: ADLIB:RGB
+  N/C                          clk_ibuf_RNIVTI2/U0_RGB1_RGB2:YL (r)
+               +     0.566          net: clk_ibuf_RNIVTI2/U0_RGB1_RGB2_rgbl_net_1
+  N/C                          Q[14]:CLK (r)
+               -     0.644          Library setup time: ADLIB:SLE
+  N/C                          Q[14]:SLn
+
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+Path 1
+  From: Qout_Z[4]:CLK
+  To:   Qout[4]
+  Delay (ns):              5.409
+  Arrival (ns):            8.436
+  Clock to Out (ns):       8.436
+
+Path 2
+  From: Qout_Z[15]:CLK
+  To:   Qout[15]
+  Delay (ns):              5.250
+  Arrival (ns):            8.285
+  Clock to Out (ns):       8.285
+
+Path 3
+  From: Qout_Z[5]:CLK
+  To:   Qout[5]
+  Delay (ns):              5.178
+  Arrival (ns):            8.192
+  Clock to Out (ns):       8.192
+
+Path 4
+  From: Qout_Z[0]:CLK
+  To:   Qout[0]
+  Delay (ns):              5.127
+  Arrival (ns):            8.152
+  Clock to Out (ns):       8.152
+
+Path 5
+  From: Qout_Z[3]:CLK
+  To:   Qout[3]
+  Delay (ns):              4.835
+  Arrival (ns):            7.849
+  Clock to Out (ns):       7.849
+
+Path 6
+  From: Qout_Z[2]:CLK
+  To:   Qout[2]
+  Delay (ns):              4.818
+  Arrival (ns):            7.832
+  Clock to Out (ns):       7.832
+
+Path 7
+  From: Qout_Z[7]:CLK
+  To:   Qout[7]
+  Delay (ns):              4.536
+  Arrival (ns):            7.585
+  Clock to Out (ns):       7.585
+
+Path 8
+  From: Qout_Z[10]:CLK
+  To:   Qout[10]
+  Delay (ns):              4.515
+  Arrival (ns):            7.564
+  Clock to Out (ns):       7.564
+
+Path 9
+  From: Qout_Z[14]:CLK
+  To:   Qout[14]
+  Delay (ns):              4.536
+  Arrival (ns):            7.557
+  Clock to Out (ns):       7.557
+
+Path 10
+  From: Qout_Z[12]:CLK
+  To:   Qout[12]
+  Delay (ns):              4.236
+  Arrival (ns):            7.271
+  Clock to Out (ns):       7.271
+
+Path 11
+  From: Qout_Z[11]:CLK
+  To:   Qout[11]
+  Delay (ns):              4.242
+  Arrival (ns):            7.253
+  Clock to Out (ns):       7.253
+
+Path 12
+  From: Qout_Z[1]:CLK
+  To:   Qout[1]
+  Delay (ns):              4.191
+  Arrival (ns):            7.205
+  Clock to Out (ns):       7.205
+
+Path 13
+  From: Qout_Z[9]:CLK
+  To:   Qout[9]
+  Delay (ns):              4.136
+  Arrival (ns):            7.172
+  Clock to Out (ns):       7.172
+
+Path 14
+  From: Qout_Z[13]:CLK
+  To:   Qout[13]
+  Delay (ns):              3.978
+  Arrival (ns):            6.999
+  Clock to Out (ns):       6.999
+
+Path 15
+  From: Qout_Z[6]:CLK
+  To:   Qout[6]
+  Delay (ns):              3.926
+  Arrival (ns):            6.975
+  Clock to Out (ns):       6.975
+
+Path 16
+  From: Qout_Z[8]:CLK
+  To:   Qout[8]
+  Delay (ns):              3.909
+  Arrival (ns):            6.945
+  Clock to Out (ns):       6.945
+
+
+Expanded Path 1
+  From: Qout_Z[4]:CLK
+  To: Qout[4]
+  data required time                                    N/C
+  data arrival time                          -        8.436
+  slack                                                 N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        clk
+               +     0.000          Clock source
+  0.000                        clk (f)
+               +     0.000          net: clk
+  0.000                        clk_ibuf/U0/U_IOPAD:PAD (f)
+               +     1.647          cell: ADLIB:IOPAD_IN
+  1.647                        clk_ibuf/U0/U_IOPAD:Y (f)
+               +     0.116          net: clk_ibuf_Z
+  1.763                        clk_ibuf_RNIVTI2:An (r)
+               +     0.096          cell: ADLIB:GB
+  1.859                        clk_ibuf_RNIVTI2:YSn (r)
+               +     0.318          net: clk_ibuf_RNIVTI2/U0_YNn_GSouth
+  2.177                        clk_ibuf_RNIVTI2/U0_RGB1:An (r)
+               +     0.215          cell: ADLIB:RGB
+  2.392                        clk_ibuf_RNIVTI2/U0_RGB1:YL (f)
+               +     0.635          net: clk_c
+  3.027                        Qout_Z[4]:CLK (r)
+               +     0.127          cell: ADLIB:SLE
+  3.154                        Qout_Z[4]:Q (f)
+               +     1.578          net: Qout_c[4]
+  4.732                        Qout_obuf[4]/U0/U_IOOUTFF:A (f)
+               +     0.388          cell: ADLIB:IOOUTFF_BYPASS
+  5.120                        Qout_obuf[4]/U0/U_IOOUTFF:Y (f)
+               +     0.138          net: Qout_obuf[4]/U0/DOUT
+  5.258                        Qout_obuf[4]/U0/U_IOPAD:D (f)
+               +     3.178          cell: ADLIB:IOPAD_TRI
+  8.436                        Qout_obuf[4]/U0/U_IOPAD:PAD (f)
+               +     0.000          net: Qout[4]
+  8.436                        Qout[4] (f)
+                                    
+  8.436                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          clk
+               +     0.000          Clock source
+  N/C                          clk (r)
+                                    
+  N/C                          Qout[4] (f)
+
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+No Path 
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path 
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path 
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Path set Pin to Pin
+
+SET Input to Output
+
+No Path 
+
+END SET Input to Output
+
+----------------------------------------------------
+
+Path set User Sets
+

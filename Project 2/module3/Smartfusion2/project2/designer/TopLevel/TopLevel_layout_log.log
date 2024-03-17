@@ -1,0 +1,27 @@
+Info: No timing constraint has been associated to the 'Place and Route' tool. 'Place and Route' will be run in non Timing Driven mode.
+INFO: The option "Abort flow if errors are found in PDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated PDC files. Please uncheck the option to ignore the errors and continue running the tool
+***** Place and Route Configurations *****
+Timing-driven            : OFF
+Power-driven             : OFF
+I/O Register Combining   : OFF
+High-effort              : OFF
+Repair min-delay         : OFF
+Incremental              : OFF
+
+INFO: No User PDC file(s) was specified.
+
+Running the I/O Bank and Globals Assigner.
+Info:  I/O Bank and Globals Assigner identified 0 fixed I/O macros, 1 unfixed I/O macros
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 0 seconds
+
+Placer V5.0 - 12.900.20 
+Design: TopLevel                        Started: Mon Oct 23 15:14:02 2023
+
+Initializing Normal-Effort Standard Placement ...
+Clustering ...
+Placing ...
+Internal Error: 
+Assertion Failed in "D:/pre_capture_jenkins/sn/lyra_sjo-sv-winteg03_pre_capture_sn/am/group/layoutg4/src/g6_cluster_analytic/g6_cl_placer.cpp", line 2698.
+Please call technical support for assistance, providing the above diagnostic information.

@@ -1,0 +1,9 @@
+Selecting top level module Counter16
+@N: CG364 :"C:\Users\itssh\Desktop\Micosemi_prj\Counter16\hdl\Counter16.v":21:7:21:15|Synthesizing module Counter16 in library work.
+Running optimization stage 1 on Counter16 .......
+Running optimization stage 2 on Counter16 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\itssh\Desktop\Micosemi_prj\Counter16\synthesis\synwork\layer0.rt.csv
+

@@ -1,0 +1,4 @@
+Detailed Resource Usage
+Module Name,Fabric 4LUT,Single-Ended I/O,Differential I/O Pairs,MSS,CAN,10/100/1000 Ethernet,HS USB,Multi-Mode UART
+Primitives/Primitives,17,0,0,0,0,0,0,0
+SF2Project_MSS_0/Primitives,0,74,3,1,0,0,0,0

@@ -1,0 +1,66 @@
+# Microsemi Physical design constraints file
+
+# Version: v12.6 12.900.20.24
+
+# Design Name: Counter16 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S010 , Package: 144 TQ , Speed grade: STD 
+
+# Date generated: Tue Oct 17 18:27:44 2023 
+
+
+#
+# I/O constraints
+#
+
+set_io Q\[0\] -DIRECTION OUTPUT -pinname 24 -fixed no
+set_io Q\[1\] -DIRECTION OUTPUT -pinname 7 -fixed no
+set_io Q\[2\] -DIRECTION OUTPUT -pinname 14 -fixed no
+set_io Q\[3\] -DIRECTION OUTPUT -pinname 16 -fixed no
+set_io Q\[4\] -DIRECTION OUTPUT -pinname 28 -fixed no
+set_io Q\[5\] -DIRECTION OUTPUT -pinname 13 -fixed no
+set_io Q\[6\] -DIRECTION OUTPUT -pinname 22 -fixed no
+set_io Q\[7\] -DIRECTION OUTPUT -pinname 37 -fixed no
+set_io Q\[8\] -DIRECTION OUTPUT -pinname 23 -fixed no
+set_io Q\[9\] -DIRECTION OUTPUT -pinname 32 -fixed no
+set_io Q\[10\] -DIRECTION OUTPUT -pinname 27 -fixed no
+set_io Q\[11\] -DIRECTION OUTPUT -pinname 30 -fixed no
+set_io Q\[12\] -DIRECTION OUTPUT -pinname 36 -fixed no
+set_io Q\[13\] -DIRECTION OUTPUT -pinname 21 -fixed no
+set_io Q\[14\] -DIRECTION OUTPUT -pinname 29 -fixed no
+set_io Q\[15\] -DIRECTION OUTPUT -pinname 19 -fixed no
+set_io clk -DIRECTION INPUT -pinname 20 -fixed no
+set_io en -DIRECTION INPUT -pinname 130 -fixed no
+set_io rst -DIRECTION INPUT -pinname 144 -fixed no
+
+#
+# Core cell constraints
+#
+
+set_location Q_Z\[7\] -fixed no 7 58
+set_location clk_ibuf_RNIVTI2 -fixed no 219 54
+set_location Q_Z\[8\] -fixed no 8 58
+set_location Q_Z\[0\] -fixed no 16 58
+set_location Q_Z\[14\] -fixed no 14 58
+set_location en_ibuf_RNIM99D -fixed no 23 57
+set_location Q_Z\[11\] -fixed no 11 58
+set_location Q_Z\[10\] -fixed no 10 58
+set_location flash_freeze_inst/INST_FLASH_FREEZE_IP -fixed no 396 8
+set_location Q_Z\[5\] -fixed no 5 58
+set_location Q_Z\[12\] -fixed no 12 58
+set_location Q_Z\[4\] -fixed no 0 58
+set_location Q_Z\[1\] -fixed no 1 58
+set_location Q_Z\[13\] -fixed no 13 58
+set_location Q_Z\[9\] -fixed no 9 58
+set_location clk_ibuf_RNIVTI2/U0_RGB1 -fixed no 218 57
+set_location Q_Z\[6\] -fixed no 6 58
+set_location ip_interface_inst -fixed no 191 0
+set_location Q_Z\[15\] -fixed no 15 58
+set_location Q_RNO\[0\] -fixed no 16 57
+set_location Q_Z\[3\] -fixed no 3 58
+set_location Q_Z\[2\] -fixed no 2 58
+set_location Q_s_1 -fixed no 0 57
+set_location Q_s_1_CC_0 -fixed no 0 59
+set_location Q_s_1_CC_1 -fixed no 12 59

@@ -1,0 +1,1 @@
+@W: MT530 :"c:\users\itssh\desktop\micosemi_prj\shift32\hdl\shift_reg32.v":28:0:28:5|Found inferred clock shift_reg32|CLK which controls 32 sequential elements including Q_int[31:0]. This clock has no specified timing constraint which may adversely impact design performance. 

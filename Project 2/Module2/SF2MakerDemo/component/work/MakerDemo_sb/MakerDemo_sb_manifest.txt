@@ -1,0 +1,38 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.6 (Version 12.900.20.24)
+
+Date      :  Fri Oct 20 19:14:47 2023
+Project   :  C:\ECEN5863\Project2\Module2\SF2MakerDemo
+Component :  MakerDemo_sb
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/ECEN5863/Project2/Module2/SF2MakerDemo/component/work/MakerDemo_sb/MakerDemo_sb.v
+    C:/ECEN5863/Project2/Module2/SF2MakerDemo/component/work/MakerDemo_sb/MakerDemo_sb.v
+    C:/ECEN5863/Project2/Module2/SF2MakerDemo/component/work/MakerDemo_sb/CCC_0/MakerDemo_sb_CCC_0_FCCC.v
+    C:/ECEN5863/Project2/Module2/SF2MakerDemo/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v
+    C:/ECEN5863/Project2/Module2/SF2MakerDemo/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp_pcie_hotreset.v
+    C:/ECEN5863/Project2/Module2/SF2MakerDemo/component/work/MakerDemo_sb/FABOSC_0/MakerDemo_sb_FABOSC_0_OSC.v
+    C:/ECEN5863/Project2/Module2/SF2MakerDemo/component/work/MakerDemo_sb/MakerDemo_sb.v
+    C:/ECEN5863/Project2/Module2/SF2MakerDemo/component/work/MakerDemo_sb_MSS/MakerDemo_sb_MSS.v
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    C:/ECEN5863/Project2/Module2/SF2MakerDemo/component/Actel/SgCore/OSC/2.0.101/osc_comps.v
+    C:/ECEN5863/Project2/Module2/SF2MakerDemo/component/work/MakerDemo_sb_MSS/MakerDemo_sb_MSS_syn.v
+
+HDL source files for Mentor Precision Synthesis tool:
+    C:/ECEN5863/Project2/Module2/SF2MakerDemo/component/Actel/SgCore/OSC/2.0.101/osc_comps_pre.v
+    C:/ECEN5863/Project2/Module2/SF2MakerDemo/component/work/MakerDemo_sb_MSS/MakerDemo_sb_MSS_pre.v
+
+Stimulus files for all Simulation tools:
+    C:/ECEN5863/Project2/Module2/SF2MakerDemo/component/work/MakerDemo_sb/subsystem.bfm
+    C:/ECEN5863/Project2/Module2/SF2MakerDemo/component/work/MakerDemo_sb/subsystem.bfm
+    C:/ECEN5863/Project2/Module2/SF2MakerDemo/component/work/MakerDemo_sb/subsystem.bfm
+    C:/ECEN5863/Project2/Module2/SF2MakerDemo/component/work/MakerDemo_sb_MSS/CM3_compile_bfm.tcl
+    C:/ECEN5863/Project2/Module2/SF2MakerDemo/component/work/MakerDemo_sb_MSS/user.bfm
+    C:/ECEN5863/Project2/Module2/SF2MakerDemo/component/work/MakerDemo_sb_MSS/test.bfm
+    C:/ECEN5863/Project2/Module2/SF2MakerDemo/component/Actel/SmartFusion2MSS/MSS/1.1.500/peripheral_init.bfm
+
+Firmware files for all Software IDE tools:
+    C:/ECEN5863/Project2/Module2/SF2MakerDemo/component/work/MakerDemo_sb_MSS/sys_config_mss_clocks.h
+

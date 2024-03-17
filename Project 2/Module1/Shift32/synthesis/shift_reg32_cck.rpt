@@ -1,0 +1,108 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: F:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: SHRIDELL
+
+Implementation : synthesis
+
+# Written on Tue Oct 17 15:59:29 2023
+
+##### DESIGN INFO #######################################################
+
+Top View:                "shift_reg32"
+Constraint File(s):      "C:\Users\itssh\Desktop\Micosemi_prj\Shift32\designer\shift_reg32\synthesis.fdc"
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting            Ending              |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+---------------------------------------------------------------------------------------------------------------------------------------------------
+shift_reg32|CLK     shift_reg32|CLK     |     10.000           |     No paths         |     No paths         |     No paths                         
+===================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:D
+p:EN
+p:Q[0]
+p:Q[1]
+p:Q[2]
+p:Q[3]
+p:Q[4]
+p:Q[5]
+p:Q[6]
+p:Q[7]
+p:Q[8]
+p:Q[9]
+p:Q[10]
+p:Q[11]
+p:Q[12]
+p:Q[13]
+p:Q[14]
+p:Q[15]
+p:Q[16]
+p:Q[17]
+p:Q[18]
+p:Q[19]
+p:Q[20]
+p:Q[21]
+p:Q[22]
+p:Q[23]
+p:Q[24]
+p:Q[25]
+p:Q[26]
+p:Q[27]
+p:Q[28]
+p:Q[29]
+p:Q[30]
+p:Q[31]
+p:RST
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

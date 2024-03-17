@@ -1,0 +1,151 @@
+Resource Report
+Microsemi Corporation - Microsemi Libero Software Release v12.6 (Version 12.900.20.24)
+Date: Sat Oct 14 15:22:16 2023
+
+Device Selection
++--------------------------------+----------------+
+| Family                         | SmartFusion2   |
+| Device                         | M2S010         |
+| Package                        | 484 FBGA       |
+| Speed Grade                    | STD            |
+| Temp                           | 0:25:85        |
+| Voltage                        | 1.26:1.20:1.14 |
+| Core Voltage                   | 1.2V           |
+| Ramp Rate                      | 100ms Minimum  |
+| System Controller Suspend Mode | No             |
+| PLL Supply Voltage             | 2.5V           |
+| Default I/O technology         | LVCMOS 2.5V    |
+| Restrict Probe Pins            | Yes            |
+| Restrict SPI Pins              | No             |
++--------------------------------+----------------+
+
+Source Files
++---------+------------------------------------------------+
+| Topcell | HW2P7                                          |
+| Format  | Verilog                                        |
+| Source  | C:\Microsemi_prj\SF2Project\synthesis\HW2P7.vm |
++---------+------------------------------------------------+
+
+Options
++----------------------------------------------------+-------+
+| Enable Single Event Transient mitigation           | false |
+| Enable Design Separation Methodology               | false |
+| Limit the number of high fanout nets to display to | 10    |
++----------------------------------------------------+-------+
+
+Resource Usage
++---------------------------+------+-------+------------+
+| Type                      | Used | Total | Percentage |
++---------------------------+------+-------+------------+
+| 4LUT                      | 25   | 12084 | 0.21       |
+| DFF                       | 5    | 12084 | 0.04       |
+| I/O Register              | 0    | 699   | 0.00       |
+| User I/O                  | 0    | 233   | 0.00       |
+| -- Single-ended I/O       | 0    | 233   | 0.00       |
+| -- Differential I/O Pairs | 0    | 116   | 0.00       |
+| RAM64x18                  | 0    | 22    | 0.00       |
+| RAM1K18                   | 0    | 21    | 0.00       |
+| MACC                      | 0    | 22    | 0.00       |
+| Chip Globals              | 1    | 8     | 12.50      |
+| CCC                       | 0    | 2     | 0.00       |
+| RCOSC_25_50MHZ            | 0    | 1     | 0.00       |
+| RCOSC_1MHZ                | 0    | 1     | 0.00       |
+| XTLOSC                    | 0    | 1     | 0.00       |
+| MSS                       | 0    | 1     | 0.00       |
++---------------------------+------+-------+------------+
+
+Detailed Logic Resource Usage
++--------------------------+------+-----+
+| Type                     | 4LUT | DFF |
++--------------------------+------+-----+
+| Fabric Logic             | 25   | 5   |
+| RAM64x18 Interface Logic | 0    | 0   |
+| RAM1K18 Interface Logic  | 0    | 0   |
+| MACC Interface Logic     | 0    | 0   |
+| Total Used               | 25   | 5   |
++--------------------------+------+-----+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 0            | 0           | 0               |
+| Output I/O                    | 0            | 0           | 0               |
+| Bidirectional I/O             | 0            | 0           | 0               |
+| Differential Input I/O Pairs  | 0            | 0           | 0               |
+| Differential Output I/O Pairs | 0            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+I/O Technology
++--------------+------+------+-------+--------+---------------+
+| I/O Standard | Vddi | Vref | Input | Output | Bidirectional |
++--------------+------+------+-------+--------+---------------+
++--------------+------+------+-------+--------+---------------+
+
+Nets assigned to chip global resources
++--------+---------+---------------------------+
+| Fanout | Type    | Name                      |
++--------+---------+---------------------------+
+| 5      | INT_NET | Net   : NN_1              |
+|        |         | Driver: CP_RNIJ72/U0_RGB1 |
+|        |         | Source: NETLIST           |
++--------+---------+---------------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+----------------------------------+
+| Fanout | Type    | Name                             |
++--------+---------+----------------------------------+
+| 6      | INT_NET | Net   : TC                       |
+|        |         | Driver: TC_temp                  |
+| 5      | INT_NET | Net   : Q[1]                     |
+|        |         | Driver: count_temp[1]            |
+| 5      | INT_NET | Net   : Q[0]                     |
+|        |         | Driver: count_temp[0]            |
+| 5      | INT_NET | Net   : SR                       |
+|        |         | Driver: BLOCK_INTERFACE_I_SR     |
+| 4      | INT_NET | Net   : Q[2]                     |
+|        |         | Driver: count_temp[2]            |
+| 4      | INT_NET | Net   : PE                       |
+|        |         | Driver: BLOCK_INTERFACE_I_PE     |
+| 4      | INT_NET | Net   : CEP                      |
+|        |         | Driver: BLOCK_INTERFACE_I_CEP    |
+| 4      | INT_NET | Net   : CET                      |
+|        |         | Driver: BLOCK_INTERFACE_I_CET    |
+| 3      | INT_NET | Net   : Q[3]                     |
+|        |         | Driver: count_temp[3]            |
+| 2      | INT_NET | Net   : un1_count_temp_2_1.CO0_Z |
+|        |         | Driver: un1_count_temp_2_1.CO0   |
++--------+---------+----------------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+----------------------------------+
+| Fanout | Type    | Name                             |
++--------+---------+----------------------------------+
+| 6      | INT_NET | Net   : TC                       |
+|        |         | Driver: TC_temp                  |
+| 5      | INT_NET | Net   : Q[1]                     |
+|        |         | Driver: count_temp[1]            |
+| 5      | INT_NET | Net   : Q[0]                     |
+|        |         | Driver: count_temp[0]            |
+| 5      | INT_NET | Net   : SR                       |
+|        |         | Driver: BLOCK_INTERFACE_I_SR     |
+| 4      | INT_NET | Net   : Q[2]                     |
+|        |         | Driver: count_temp[2]            |
+| 4      | INT_NET | Net   : PE                       |
+|        |         | Driver: BLOCK_INTERFACE_I_PE     |
+| 4      | INT_NET | Net   : CEP                      |
+|        |         | Driver: BLOCK_INTERFACE_I_CEP    |
+| 4      | INT_NET | Net   : CET                      |
+|        |         | Driver: BLOCK_INTERFACE_I_CET    |
+| 3      | INT_NET | Net   : Q[3]                     |
+|        |         | Driver: count_temp[3]            |
+| 2      | INT_NET | Net   : un1_count_temp_2_1.CO0_Z |
+|        |         | Driver: un1_count_temp_2_1.CO0   |
++--------+---------+----------------------------------+
+

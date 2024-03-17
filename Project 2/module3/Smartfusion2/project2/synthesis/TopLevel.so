@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>TopLevel</design>
+	<target_verilog>C:\Microsemi_prj\project2\synthesis\TopLevel.vm</target_verilog>
+</SynplifyOutput>

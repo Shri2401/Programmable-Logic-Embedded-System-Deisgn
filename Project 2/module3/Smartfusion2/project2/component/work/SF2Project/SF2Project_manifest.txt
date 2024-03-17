@@ -1,0 +1,14 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.6 (Version 12.900.20.24)
+
+Date      :  Sat Oct 14 14:49:43 2023
+Project   :  C:\Microsemi_prj\SF2Project
+Component :  SF2Project
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Microsemi_prj/SF2Project/component/work/SF2Project/SF2Project.v
+
+Stimulus files for all Simulation tools:
+    C:/Microsemi_prj/SF2Project/component/work/SF2Project/subsystem.bfm
+

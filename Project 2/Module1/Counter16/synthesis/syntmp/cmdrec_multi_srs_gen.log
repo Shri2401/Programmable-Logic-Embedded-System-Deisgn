@@ -1,0 +1,7 @@
+F:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  Counter16  -multisrs  C:\Users\itssh\Desktop\Micosemi_prj\Counter16\synthesis\synwork\Counter16_comp.srs  -osyn  C:\Users\itssh\Desktop\Micosemi_prj\Counter16\synthesis\synwork\Counter16_mult.srs  -log  C:\Users\itssh\Desktop\Micosemi_prj\Counter16\synthesis\synlog\Counter16_multi_srs_gen.srr 
+relcom:F:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\syn_nfilter.exe -link -top Counter16 -multisrs ..\synwork\Counter16_comp.srs -osyn ..\synwork\Counter16_mult.srs -log ..\synlog\Counter16_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\Counter16_comp.srs|io:i|time:1697587491|size:1654|exec:0|csum:76910EDD4D92DF354A61C4DB233A3FAD
+file:..\synwork\Counter16_mult.srs|io:o|time:1697587492|size:1386|exec:0|csum:
+file:..\synlog\Counter16_multi_srs_gen.srr|io:o|time:1697587492|size:1050|exec:0|csum:
+file:F:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1604390270|size:8875008|exec:1|csum:0DD4C62B1D51A63F583C3F9F7F16E967

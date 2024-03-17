@@ -1,0 +1,318 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: KANINS-DESKTOP
+
+Implementation : synthesis
+Synopsys HDL Compiler, Version comp202003synp2, Build 166R, Built Oct 19 2020 10:50:56, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: KANINS-DESKTOP
+
+Implementation : synthesis
+Synopsys Verilog Compiler, Version comp202003synp2, Build 170R, Built Oct 21 2020 10:52:30, @
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@I::"C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\generic\smartfusion2.v" (library work)
+@I::"C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Microsemi_prj\project2\hdl\project2.v" (library work)
+@I::"C:\Microsemi_prj\project2\hdl\TopLevel.v" (library work)
+Verilog syntax check successful!
+Options changed - recompiling
+Selecting top level module TopLevel
+@N: CG364 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":312:7:312:14|Synthesizing module TopLevel in library work.
+@N: CG364 :"C:\Microsemi_prj\project2\hdl\project2.v":71:7:71:14|Synthesizing module project2 in library work.
+Running optimization stage 1 on project2 .......
+@A: CL282 :"C:\Microsemi_prj\project2\hdl\project2.v":82:2:82:7|Feedback mux created for signal tc_internal. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":331:16:331:46|Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+
+Only the first 100 messages of id 'CS263' are reported. To see all messages use 'report_messages -log C:\Microsemi_prj\project2\synthesis\synlog\TopLevel_compiler.srr -id CS263' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CS263} -count unlimited' in the Tcl shell.
+Running optimization stage 1 on TopLevel .......
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1989].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1988].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1987].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1986].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1985].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1984].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1983].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1982].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1981].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1980].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1979].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1978].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1977].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1976].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1975].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1974].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1973].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1972].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1971].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1970].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1969].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1968].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1967].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1966].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1965].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1964].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1963].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1962].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1961].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1960].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1959].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1958].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1957].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1956].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1955].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1954].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1953].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1952].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1951].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1950].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1949].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1948].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1947].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1946].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1945].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1944].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1943].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1942].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1941].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1940].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1939].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1938].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1937].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1936].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1935].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1934].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1933].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1932].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1931].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1930].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1929].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1928].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1927].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1926].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1925].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1924].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1923].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1922].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1921].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1920].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1919].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1918].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1917].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1916].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1915].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1914].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1913].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1912].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1911].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1910].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1909].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1908].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1907].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1906].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1905].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1904].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1903].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1902].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1901].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1900].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1899].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1898].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1897].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1896].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1895].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1894].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1893].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1892].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1891].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":327:15:327:21|Removing instance counter_block[1890].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+
+Only the first 100 messages of id 'CL168' are reported. To see all messages use 'report_messages -log C:\Microsemi_prj\project2\synthesis\synlog\TopLevel_compiler.srr -id CL168' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CL168} -count unlimited' in the Tcl shell.
+Running optimization stage 2 on project2 .......
+@N: CL189 :"C:\Microsemi_prj\project2\hdl\project2.v":82:2:82:7|Register bit tc_internal is always 1.
+Running optimization stage 2 on TopLevel .......
+@N: CL159 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":313:13:313:15|Input clk is unused.
+@N: CL159 :"C:\Microsemi_prj\project2\hdl\TopLevel.v":314:13:314:17|Input reset is unused.
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Microsemi_prj\project2\synthesis\synwork\layer0.rt.csv
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 113MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Oct 23 15:13:43 2023
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: KANINS-DESKTOP
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202003synp2, Build 166R, Built Oct 19 2020 10:50:56, @
+
+@N|Running in 64-bit mode
+File C:\Microsemi_prj\project2\synthesis\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 91MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Oct 23 15:13:43 2023
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Microsemi_prj\project2\synthesis\synwork\TopLevel_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 23MB peak: 23MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Oct 23 15:13:43 2023
+
+###########################################################]

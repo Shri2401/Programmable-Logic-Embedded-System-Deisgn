@@ -1,0 +1,54 @@
+# Microsemi Physical design constraints file
+
+# Version: v12.6 12.900.20.24
+
+# Design Name: HW2P7 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S010 , Package: 484 FBGA , Speed grade: STD 
+
+# Date generated: Sat Oct 14 15:22:26 2023 
+
+
+#
+# I/O constraints
+#
+
+
+#
+# Core cell constraints
+#
+
+set_location un1_count_temp_2_1.CO0 -fixed no 199 51
+set_location TC_temp_0_sqmuxa_1_0 -fixed no 197 51
+set_location count_temp\[0\] -fixed no 205 52
+set_location BLOCK_INTERFACE_I_P\[3\] -fixed no 213 51
+set_location BLOCK_INTERFACE_I_CEP -fixed no 194 51
+set_location count_temp_5\[0\] -fixed no 205 51
+set_location BLOCK_INTERFACE_I_SR -fixed no 214 51
+set_location count_temp\[3\] -fixed no 207 52
+set_location BLOCK_INTERFACE_I_TC -fixed no 211 51
+set_location BLOCK_INTERFACE_I_Q\[0\] -fixed no 195 51
+set_location BLOCK_INTERFACE_I_PE -fixed no 206 51
+set_location BLOCK_INTERFACE_I_CP -fixed no 228 51
+set_location un1_count_temp_2_1.SUM\[2\] -fixed no 200 51
+set_location CP_RNIJ72/U0_RGB1 -fixed no 218 51
+set_location TC_temp -fixed no 215 52
+set_location count_temp\[2\] -fixed no 208 52
+set_location BLOCK_INTERFACE_I_Q\[1\] -fixed no 198 51
+set_location count_temp_5\[1\] -fixed no 210 51
+set_location BLOCK_INTERFACE_I_Q\[3\] -fixed no 202 51
+set_location un1_count_temp_2_1.SUM\[0\] -fixed no 196 51
+set_location TC_temp_0_sqmuxa -fixed no 215 51
+set_location un1_count_temp_2_1.SUM\[1\] -fixed no 192 51
+set_location CP_RNIJ72 -fixed no 222 54
+set_location BLOCK_INTERFACE_I_P\[0\] -fixed no 204 51
+set_location un1_count_temp_2_1.SUM\[3\] -fixed no 201 51
+set_location BLOCK_INTERFACE_I_P\[1\] -fixed no 209 51
+set_location count_temp_5\[2\] -fixed no 208 51
+set_location count_temp_5\[3\] -fixed no 207 51
+set_location count_temp\[1\] -fixed no 210 52
+set_location BLOCK_INTERFACE_I_Q\[2\] -fixed no 203 51
+set_location BLOCK_INTERFACE_I_P\[2\] -fixed no 212 51
+set_location BLOCK_INTERFACE_I_CET -fixed no 193 51

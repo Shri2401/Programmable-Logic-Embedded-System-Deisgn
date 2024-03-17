@@ -1,0 +1,7 @@
+C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  TopLevel  -multisrs  C:\Microsemi_prj\project2\synthesis\synwork\TopLevel_comp.srs  -osyn  C:\Microsemi_prj\project2\synthesis\synwork\TopLevel_mult.srs  -log  C:\Microsemi_prj\project2\synthesis\synlog\TopLevel_multi_srs_gen.srr 
+relcom:..\..\..\..\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\syn_nfilter.exe -link -top TopLevel -multisrs ..\synwork\TopLevel_comp.srs -osyn ..\synwork\TopLevel_mult.srs -log ..\synlog\TopLevel_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\TopLevel_comp.srs|io:i|time:1698095623|size:1516|exec:0|csum:6073BE27F886A90B1D8CBBAD0981CFC2
+file:..\synwork\TopLevel_mult.srs|io:o|time:1698095624|size:1236|exec:0|csum:
+file:..\synlog\TopLevel_multi_srs_gen.srr|io:o|time:1698095624|size:1087|exec:0|csum:
+file:..\..\..\..\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1604390270|size:8875008|exec:1|csum:0DD4C62B1D51A63F583C3F9F7F16E967

@@ -1,0 +1,141 @@
+Flow report for Embed
+Fri Oct 06 22:53:10 2023
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------------+
+; Flow Summary                                                                     ;
++------------------------------------+---------------------------------------------+
+; Flow Status                        ; Successful - Fri Oct 06 22:52:31 2023       ;
+; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
+; Revision Name                      ; Embed                                       ;
+; Top-level Entity Name              ; DE10_LITE_Default                           ;
+; Family                             ; MAX 10                                      ;
+; Device                             ; 10M50DAF484C6GES                            ;
+; Timing Models                      ; Preliminary                                 ;
+; Total logic elements               ; 11,835 / 49,760 ( 24 % )                    ;
+;     Total combinational functions  ; 9,838 / 49,760 ( 20 % )                     ;
+;     Dedicated logic registers      ; 7,517 / 49,760 ( 15 % )                     ;
+; Total registers                    ; 7586                                        ;
+; Total pins                         ; 185 / 360 ( 51 % )                          ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 759,864 / 1,677,312 ( 45 % )                ;
+; Embedded Multiplier 9-bit elements ; 6 / 288 ( 2 % )                             ;
+; Total PLLs                         ; 3 / 4 ( 75 % )                              ;
+; UFM blocks                         ; 1 / 1 ( 100 % )                             ;
+; ADC blocks                         ; 1 / 2 ( 50 % )                              ;
++------------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 10/06/2023 22:40:23 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; Embed               ;
++-------------------+---------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                 ;
++-------------------------------------+---------------------------------------------------------+---------------+---------------------+------------+
+; Assignment Name                     ; Value                                                   ; Default Value ; Entity Name         ; Section Id ;
++-------------------------------------+---------------------------------------------------------+---------------+---------------------+------------+
+; COMPILER_SIGNATURE_ID               ; 238390285375870.169665362018704                         ; --            ; --                  ; --         ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                                      ; --            ; --                  ; --         ;
+; MESSAGE_DISABLE                     ; 332060                                                  ; --            ; altera_onchip_flash ; --         ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                                       ; --            ; --                  ; --         ;
+; MISC_FILE                           ; Embed/synthesis/../Embed.cmp                            ; --            ; --                  ; --         ;
+; MISC_FILE                           ; Embed/synthesis/../../Embed.qsys                        ; --            ; --                  ; --         ;
+; MISC_FILE                           ; VGA_DATA/Img_RAM.bsf                                    ; --            ; --                  ; --         ;
+; MISC_FILE                           ; VGA_Audio_PLL_bb.v                                      ; --            ; --                  ; --         ;
+; MISC_FILE                           ; VGA_Audio_PLL.ppf                                       ; --            ; --                  ; --         ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS      ; Half Signal Swing                                       ; --            ; --                  ; --         ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS      ; Half Signal Swing                                       ; --            ; --                  ; --         ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS     ; Half Vccio                                              ; --            ; --                  ; --         ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS     ; Half Vccio                                              ; --            ; --                  ; --         ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family)                  ; --            ; DE10_LITE_Default   ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family)                  ; --            ; DE10_LITE_Default   ; Top        ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family)                  ; --            ; DE10_LITE_Default   ; Top        ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                                     ; --            ; --                  ; --         ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                   ; --            ; --                  ; --         ;
+; SLD_FILE                            ; Embed/synthesis/Embed.regmap                            ; --            ; --                  ; --         ;
+; SLD_FILE                            ; Embed/synthesis/Embed.debuginfo                         ; --            ; --                  ; --         ;
+; SLD_INFO                            ; QSYS_NAME Embed HAS_SOPCINFO 1 GENERATION_ID 1696653178 ; --            ; --                  ; --         ;
+; SOPCINFO_FILE                       ; Embed/synthesis/../../Embed.sopcinfo                    ; --            ; --                  ; --         ;
+; SYNTHESIS_ONLY_QIP                  ; On                                                      ; --            ; --                  ; --         ;
+; TOP_LEVEL_ENTITY                    ; DE10_LITE_Default                                       ; Embed         ; --                  ; --         ;
++-------------------------------------+---------------------------------------------------------+---------------+---------------------+------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:06:49     ; 1.0                     ; 5140 MB             ; 00:04:27                           ;
+; Fitter               ; 00:04:24     ; 1.3                     ; 5793 MB             ; 00:03:11                           ;
+; Assembler            ; 00:00:13     ; 1.0                     ; 4754 MB             ; 00:00:06                           ;
+; Timing Analyzer      ; 00:00:37     ; 1.9                     ; 4979 MB             ; 00:00:33                           ;
+; Total                ; 00:12:03     ; --                      ; --                  ; 00:08:17                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; ShriDell         ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; ShriDell         ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; ShriDell         ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; ShriDell         ; Windows 10 ; 10.0       ; x86_64         ;
++----------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off Embed -c Embed
+quartus_fit --read_settings_files=off --write_settings_files=off Embed -c Embed
+quartus_asm --read_settings_files=off --write_settings_files=off Embed -c Embed
+quartus_sta Embed -c Embed
+
+
+

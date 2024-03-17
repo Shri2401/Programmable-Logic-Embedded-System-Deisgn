@@ -1,0 +1,105 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: X03103
+
+Implementation : synthesis
+Synopsys HDL compiler and linker, Version comp202003synp2, Build 170R, Built Oct 21 2020 10:52:30, @
+
+Modified Files: 14
+FID:  path (prevtimestamp, timestamp)
+0        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v (N/A, 2023-10-15 08:58:46)
+1        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v (N/A, 2023-10-15 08:58:46)
+2        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\Actel\SgCore\OSC\2.0.101\osc_comps.v (N/A, 2023-10-15 08:58:47)
+3        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\work\MakerDemo\MakerDemo.v (N/A, 2023-10-20 19:21:38)
+4        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\work\MakerDemo_sb\CCC_0\MakerDemo_sb_CCC_0_FCCC.v (N/A, 2023-10-20 19:14:45)
+5        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\work\MakerDemo_sb\FABOSC_0\MakerDemo_sb_FABOSC_0_OSC.v (N/A, 2023-10-20 19:14:47)
+6        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\work\MakerDemo_sb\MakerDemo_sb.v (N/A, 2023-10-20 19:14:47)
+7        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\work\MakerDemo_sb_MSS\MakerDemo_sb_MSS.v (N/A, 2023-10-20 19:14:43)
+8        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\work\MakerDemo_sb_MSS\MakerDemo_sb_MSS_syn.v (N/A, 2023-10-20 19:14:43)
+9        C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\generic\smartfusion2.v (N/A, 2020-11-03 00:58:10)
+10       C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\hypermods.v (N/A, 2020-11-03 00:58:13)
+11       C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\scemi_objects.v (N/A, 2020-11-03 00:58:13)
+12       C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\scemi_pipes.svh (N/A, 2020-11-03 00:58:13)
+13       C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\umr_capim.v (N/A, 2020-11-03 00:58:13)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 14
+MID:  lib.cell.view
+0        work.CoreResetP.verilog may have changed because the following files changed:
+                        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v (N/A, 2023-10-15 08:58:46) <-- (module definition)
+                        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\work\MakerDemo\MakerDemo.v (N/A, 2023-10-20 19:21:38) <-- (may instantiate this module)
+                        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\work\MakerDemo_sb\MakerDemo_sb.v (N/A, 2023-10-20 19:14:47) <-- (may instantiate this module)
+1        work.MSS_010.verilog may have changed because the following files changed:
+                        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\work\MakerDemo\MakerDemo.v (N/A, 2023-10-20 19:21:38) <-- (may instantiate this module)
+                        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\work\MakerDemo_sb\MakerDemo_sb.v (N/A, 2023-10-20 19:14:47) <-- (may instantiate this module)
+                        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\work\MakerDemo_sb_MSS\MakerDemo_sb_MSS.v (N/A, 2023-10-20 19:14:43) <-- (may instantiate this module)
+                        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\work\MakerDemo_sb_MSS\MakerDemo_sb_MSS_syn.v (N/A, 2023-10-20 19:14:43) <-- (module definition)
+2        work.MakerDemo.verilog may have changed because the following files changed:
+                        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\work\MakerDemo\MakerDemo.v (N/A, 2023-10-20 19:21:38) <-- (module definition)
+3        work.MakerDemo_sb.verilog may have changed because the following files changed:
+                        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\work\MakerDemo\MakerDemo.v (N/A, 2023-10-20 19:21:38) <-- (may instantiate this module)
+                        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\work\MakerDemo_sb\MakerDemo_sb.v (N/A, 2023-10-20 19:14:47) <-- (module definition)
+4        work.MakerDemo_sb_CCC_0_FCCC.verilog may have changed because the following files changed:
+                        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\work\MakerDemo\MakerDemo.v (N/A, 2023-10-20 19:21:38) <-- (may instantiate this module)
+                        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\work\MakerDemo_sb\CCC_0\MakerDemo_sb_CCC_0_FCCC.v (N/A, 2023-10-20 19:14:45) <-- (module definition)
+                        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\work\MakerDemo_sb\MakerDemo_sb.v (N/A, 2023-10-20 19:14:47) <-- (may instantiate this module)
+5        work.MakerDemo_sb_FABOSC_0_OSC.verilog may have changed because the following files changed:
+                        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\work\MakerDemo\MakerDemo.v (N/A, 2023-10-20 19:21:38) <-- (may instantiate this module)
+                        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\work\MakerDemo_sb\FABOSC_0\MakerDemo_sb_FABOSC_0_OSC.v (N/A, 2023-10-20 19:14:47) <-- (module definition)
+                        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\work\MakerDemo_sb\MakerDemo_sb.v (N/A, 2023-10-20 19:14:47) <-- (may instantiate this module)
+6        work.MakerDemo_sb_MSS.verilog may have changed because the following files changed:
+                        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\work\MakerDemo\MakerDemo.v (N/A, 2023-10-20 19:21:38) <-- (may instantiate this module)
+                        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\work\MakerDemo_sb\MakerDemo_sb.v (N/A, 2023-10-20 19:14:47) <-- (may instantiate this module)
+                        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\work\MakerDemo_sb_MSS\MakerDemo_sb_MSS.v (N/A, 2023-10-20 19:14:43) <-- (module definition)
+7        work.RCOSC_1MHZ.verilog may have changed because the following files changed:
+                        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\Actel\SgCore\OSC\2.0.101\osc_comps.v (N/A, 2023-10-15 08:58:47) <-- (module definition)
+                        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\work\MakerDemo\MakerDemo.v (N/A, 2023-10-20 19:21:38) <-- (may instantiate this module)
+                        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\work\MakerDemo_sb\FABOSC_0\MakerDemo_sb_FABOSC_0_OSC.v (N/A, 2023-10-20 19:14:47) <-- (may instantiate this module)
+                        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\work\MakerDemo_sb\MakerDemo_sb.v (N/A, 2023-10-20 19:14:47) <-- (may instantiate this module)
+8        work.RCOSC_1MHZ_FAB.verilog may have changed because the following files changed:
+                        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\Actel\SgCore\OSC\2.0.101\osc_comps.v (N/A, 2023-10-15 08:58:47) <-- (module definition)
+                        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\work\MakerDemo\MakerDemo.v (N/A, 2023-10-20 19:21:38) <-- (may instantiate this module)
+                        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\work\MakerDemo_sb\FABOSC_0\MakerDemo_sb_FABOSC_0_OSC.v (N/A, 2023-10-20 19:14:47) <-- (may instantiate this module)
+                        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\work\MakerDemo_sb\MakerDemo_sb.v (N/A, 2023-10-20 19:14:47) <-- (may instantiate this module)
+9        work.RCOSC_25_50MHZ.verilog may have changed because the following files changed:
+                        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\Actel\SgCore\OSC\2.0.101\osc_comps.v (N/A, 2023-10-15 08:58:47) <-- (module definition)
+                        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\work\MakerDemo\MakerDemo.v (N/A, 2023-10-20 19:21:38) <-- (may instantiate this module)
+                        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\work\MakerDemo_sb\FABOSC_0\MakerDemo_sb_FABOSC_0_OSC.v (N/A, 2023-10-20 19:14:47) <-- (may instantiate this module)
+                        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\work\MakerDemo_sb\MakerDemo_sb.v (N/A, 2023-10-20 19:14:47) <-- (may instantiate this module)
+10       work.RCOSC_25_50MHZ_FAB.verilog may have changed because the following files changed:
+                        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\Actel\SgCore\OSC\2.0.101\osc_comps.v (N/A, 2023-10-15 08:58:47) <-- (module definition)
+                        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\work\MakerDemo\MakerDemo.v (N/A, 2023-10-20 19:21:38) <-- (may instantiate this module)
+                        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\work\MakerDemo_sb\FABOSC_0\MakerDemo_sb_FABOSC_0_OSC.v (N/A, 2023-10-20 19:14:47) <-- (may instantiate this module)
+                        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\work\MakerDemo_sb\MakerDemo_sb.v (N/A, 2023-10-20 19:14:47) <-- (may instantiate this module)
+11       work.XTLOSC.verilog may have changed because the following files changed:
+                        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\Actel\SgCore\OSC\2.0.101\osc_comps.v (N/A, 2023-10-15 08:58:47) <-- (module definition)
+                        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\work\MakerDemo\MakerDemo.v (N/A, 2023-10-20 19:21:38) <-- (may instantiate this module)
+                        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\work\MakerDemo_sb\FABOSC_0\MakerDemo_sb_FABOSC_0_OSC.v (N/A, 2023-10-20 19:14:47) <-- (may instantiate this module)
+                        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\work\MakerDemo_sb\MakerDemo_sb.v (N/A, 2023-10-20 19:14:47) <-- (may instantiate this module)
+12       work.XTLOSC_FAB.verilog may have changed because the following files changed:
+                        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\Actel\SgCore\OSC\2.0.101\osc_comps.v (N/A, 2023-10-15 08:58:47) <-- (module definition)
+                        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\work\MakerDemo\MakerDemo.v (N/A, 2023-10-20 19:21:38) <-- (may instantiate this module)
+                        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\work\MakerDemo_sb\FABOSC_0\MakerDemo_sb_FABOSC_0_OSC.v (N/A, 2023-10-20 19:14:47) <-- (may instantiate this module)
+                        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\work\MakerDemo_sb\MakerDemo_sb.v (N/A, 2023-10-20 19:14:47) <-- (may instantiate this module)
+13       work.coreresetp_pcie_hotreset.verilog may have changed because the following files changed:
+                        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v (N/A, 2023-10-15 08:58:46) <-- (may instantiate this module)
+                        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v (N/A, 2023-10-15 08:58:46) <-- (module definition)
+                        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\work\MakerDemo\MakerDemo.v (N/A, 2023-10-20 19:21:38) <-- (may instantiate this module)
+                        C:\ECEN5863\Project2\Module2\SF2MakerDemo\component\work\MakerDemo_sb\MakerDemo_sb.v (N/A, 2023-10-20 19:14:47) <-- (may instantiate this module)
+
+*******************************************************************
+Unmodified files: 0
+FID:  path (timestamp)
+
+*******************************************************************
+Unchanged modules: 0
+MID:  lib.cell.view

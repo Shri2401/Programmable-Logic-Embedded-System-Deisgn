@@ -1,0 +1,16 @@
+Project Name: SF2Project
+Location: C:\Microsemi_prj\SF2Project
+Description: 
+Preferred HDL Type: Verilog
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : M2S010-FG484
+Family         : SmartFusion2
+Die            : M2S010
+Package        : 484 FBGA
+Speed          : STD
+Core Voltage   : 1.2
+Range          : COM

@@ -1,0 +1,17 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\itssh\\Desktop\\Micosemi_prj\\Shift32\\synthesis\\synwork\\shift_reg32_comp.srs|-top|shift_reg32|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-I|C:\\Users\\itssh\\Desktop\\Micosemi_prj\\Shift32\\synthesis\\|-I|F:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib|-sysv|-devicelib|F:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\generic\\smartfusion2.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work"
+#CUR:"F:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\bin64\\c_ver.exe":1604390270
+#CUR:"F:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\generic\\smartfusion2.v":1604390290
+#CUR:"F:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\vlog\\hypermods.v":1604390294
+#CUR:"F:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\vlog\\umr_capim.v":1604390294
+#CUR:"F:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1604390294
+#CUR:"F:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1604390294
+#CUR:"C:\\Users\\itssh\\Desktop\\Micosemi_prj\\Shift32\\hdl\\shift_reg32.v":1697577709
+#numinternalfiles:5
+#defaultlanguage:verilog
+0			"C:\Users\itssh\Desktop\Micosemi_prj\Shift32\hdl\shift_reg32.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+#Dependency Lists(Users Of)
+0 -1
+#Design Unit to File Association
+module work shift_reg32 0

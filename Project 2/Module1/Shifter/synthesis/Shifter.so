@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>Shifter</design>
+	<target_verilog>C:\Users\itssh\Desktop\Micosemi_prj\Shifter\synthesis\Shifter.vm</target_verilog>
+</SynplifyOutput>

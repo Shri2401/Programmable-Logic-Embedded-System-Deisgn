@@ -1,0 +1,7 @@
+F:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  Shifter  -multisrs  C:\Users\itssh\Desktop\Micosemi_prj\Shifter\synthesis\synwork\Shifter_comp.srs  -osyn  C:\Users\itssh\Desktop\Micosemi_prj\Shifter\synthesis\synwork\Shifter_mult.srs  -log  C:\Users\itssh\Desktop\Micosemi_prj\Shifter\synthesis\synlog\Shifter_multi_srs_gen.srr 
+relcom:F:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\syn_nfilter.exe -link -top Shifter -multisrs ..\synwork\Shifter_comp.srs -osyn ..\synwork\Shifter_mult.srs -log ..\synlog\Shifter_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\Shifter_comp.srs|io:i|time:1697584483|size:1873|exec:0|csum:D5CE38402C733016C68190C2020FFB3E
+file:..\synwork\Shifter_mult.srs|io:o|time:1697584485|size:1606|exec:0|csum:
+file:..\synlog\Shifter_multi_srs_gen.srr|io:o|time:1697584485|size:1050|exec:0|csum:
+file:F:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1604390270|size:8875008|exec:1|csum:0DD4C62B1D51A63F583C3F9F7F16E967

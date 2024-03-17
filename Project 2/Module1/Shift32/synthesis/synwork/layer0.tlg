@@ -1,0 +1,9 @@
+Selecting top level module shift_reg32
+@N: CG364 :"C:\Users\itssh\Desktop\Micosemi_prj\Shift32\hdl\shift_reg32.v":20:7:20:17|Synthesizing module shift_reg32 in library work.
+Running optimization stage 1 on shift_reg32 .......
+Running optimization stage 2 on shift_reg32 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\itssh\Desktop\Micosemi_prj\Shift32\synthesis\synwork\layer0.rt.csv
+

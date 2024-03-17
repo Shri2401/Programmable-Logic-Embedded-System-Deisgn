@@ -1,0 +1,38 @@
+m255
+K4
+z2
+!s11f vlog 2020.3 2020.07, Jul 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Microsemi_prj/SF2Project/simulation
+vHW2P7
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1697318653
+!i10b 1
+!s100 B7KM7P[gePMFXNR:_=5`f0
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+I^BbLWCHlPJjVnI_J[`I`H2
+S1
+R0
+w1697318645
+8C:/Microsemi_prj/SF2Project/designer/HW2P7/HW2P7_ba.v
+FC:/Microsemi_prj/SF2Project/designer/HW2P7/HW2P7_ba.v
+!i122 2
+L0 6 106
+VDg1SIo80bB@j0V0VzS_@n1
+OW;L;2020.3;71
+r1
+!s85 0
+31
+!s108 1697318653.000000
+!s107 C:/Microsemi_prj/SF2Project/designer/HW2P7/HW2P7_ba.v|
+!s90 -reportprogress|300|-sv|-work|postlayout|C:/Microsemi_prj/SF2Project/designer/HW2P7/HW2P7_ba.v|
+!s101 -O0
+!i113 1
+o-sv -work postlayout -O0
+tCvgOpt 0
+n@h@w2@p7

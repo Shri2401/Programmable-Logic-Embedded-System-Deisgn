@@ -1,0 +1,6 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N: CG364 :"C:\Users\itssh\Desktop\Micosemi_prj\Shift32\hdl\shift_reg32.v":20:7:20:17|Synthesizing module shift_reg32 in library work.
+@N|Running in 64-bit mode
+

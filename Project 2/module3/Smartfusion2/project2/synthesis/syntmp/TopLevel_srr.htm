@@ -1,0 +1,677 @@
+<html><body><samp><pre>
+<!@TC:1698095622>
+#Build: Synplify Pro (R) Q-2020.03M-SP1, Build 166R, Oct 19 2020
+#install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+#OS: Windows 8 6.2
+#Hostname: KANINS-DESKTOP
+
+# Mon Oct 23 15:13:42 2023
+
+#Implementation: synthesis
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: KANINS-DESKTOP
+
+Implementation : synthesis
+<a name=compilerReport1></a>Synopsys HDL Compiler, Version comp202003synp2, Build 166R, Built Oct 19 2020 10:50:56, @</a>
+
+@N: : <!@TM:1698095623> | Running in 64-bit mode 
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: KANINS-DESKTOP
+
+Implementation : synthesis
+<a name=compilerReport2></a>Synopsys Verilog Compiler, Version comp202003synp2, Build 170R, Built Oct 21 2020 10:52:30, @</a>
+
+@N: : <!@TM:1698095623> | Running in 64-bit mode 
+@N:<a href="@N:CG1349:@XP_HELP">CG1349</a> : <!@TM:1698095623> | Running Verilog Compiler in System Verilog mode 
+
+@I::"C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\generic\smartfusion2.v" (library work)
+@I::"C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v12.6\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Microsemi_prj\project2\hdl\project2.v" (library work)
+@I::"C:\Microsemi_prj\project2\hdl\TopLevel.v" (library work)
+Verilog syntax check successful!
+Options changed - recompiling
+Selecting top level module TopLevel
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:312:7:312:15:@N:CG364:@XP_MSG">TopLevel.v(312)</a><!@TM:1698095623> | Synthesizing module TopLevel in library work.
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="C:\Microsemi_prj\project2\hdl\project2.v:71:7:71:15:@N:CG364:@XP_MSG">project2.v(71)</a><!@TM:1698095623> | Synthesizing module project2 in library work.
+Running optimization stage 1 on project2 .......
+@A:<a href="@A:CL282:@XP_HELP">CL282</a> : <a href="C:\Microsemi_prj\project2\hdl\project2.v:82:2:82:8:@A:CL282:@XP_MSG">project2.v(82)</a><!@TM:1698095623> | Feedback mux created for signal tc_internal. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+<font color=#A52A2A>@W:<a href="@W:CS263:@XP_HELP">CS263</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:331:16:331:47:@W:CS263:@XP_MSG">TopLevel.v(331)</a><!@TM:1698095623> | Port-width mismatch for port enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.</font>
+
+Only the first 100 messages of id 'CS263' are reported. To see all messages use 'report_messages -log C:\Microsemi_prj\project2\synthesis\synlog\TopLevel_compiler.srr -id CS263' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CS263} -count unlimited' in the Tcl shell.
+Running optimization stage 1 on TopLevel .......
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1989].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1988].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1987].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1986].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1985].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1984].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1983].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1982].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1981].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1980].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1979].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1978].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1977].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1976].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1975].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1974].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1973].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1972].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1971].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1970].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1969].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1968].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1967].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1966].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1965].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1964].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1963].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1962].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1961].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1960].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1959].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1958].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1957].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1956].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1955].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1954].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1953].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1952].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1951].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1950].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1949].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1948].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1947].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1946].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1945].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1944].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1943].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1942].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1941].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1940].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1939].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1938].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1937].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1936].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1935].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1934].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1933].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1932].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1931].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1930].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1929].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1928].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1927].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1926].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1925].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1924].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1923].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1922].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1921].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1920].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1919].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1918].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1917].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1916].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1915].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1914].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1913].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1912].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1911].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1910].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1909].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1908].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1907].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1906].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1905].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1904].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1903].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1902].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1901].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1900].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1899].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1898].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1897].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1896].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1895].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1894].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1893].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1892].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1891].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+<font color=#A52A2A>@W:<a href="@W:CL168:@XP_HELP">CL168</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:327:15:327:22:@W:CL168:@XP_MSG">TopLevel.v(327)</a><!@TM:1698095623> | Removing instance counter_block[1890].counter because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</font>
+
+Only the first 100 messages of id 'CL168' are reported. To see all messages use 'report_messages -log C:\Microsemi_prj\project2\synthesis\synlog\TopLevel_compiler.srr -id CL168' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CL168} -count unlimited' in the Tcl shell.
+Running optimization stage 2 on project2 .......
+@N:<a href="@N:CL189:@XP_HELP">CL189</a> : <a href="C:\Microsemi_prj\project2\hdl\project2.v:82:2:82:8:@N:CL189:@XP_MSG">project2.v(82)</a><!@TM:1698095623> | Register bit tc_internal is always 1.
+Running optimization stage 2 on TopLevel .......
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:313:13:313:16:@N:CL159:@XP_MSG">TopLevel.v(313)</a><!@TM:1698095623> | Input clk is unused.
+@N:<a href="@N:CL159:@XP_HELP">CL159</a> : <a href="C:\Microsemi_prj\project2\hdl\TopLevel.v:314:13:314:18:@N:CL159:@XP_MSG">TopLevel.v(314)</a><!@TM:1698095623> | Input reset is unused.
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+Linked File:  <a href="C:\Microsemi_prj\project2\synthesis\synwork\layer0.rt.csv:@XP_FILE">layer0.rt.csv</a>
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 113MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Oct 23 15:13:43 2023
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: KANINS-DESKTOP
+
+Implementation : synthesis
+<a name=compilerReport3></a>Synopsys Synopsys Netlist Linker, Version comp202003synp2, Build 166R, Built Oct 19 2020 10:50:56, @</a>
+
+@N: : <!@TM:1698095623> | Running in 64-bit mode 
+File C:\Microsemi_prj\project2\synthesis\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 91MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Oct 23 15:13:43 2023
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+Linked File:  <a href="C:\Microsemi_prj\project2\synthesis\synwork\TopLevel_comp.rt.csv:@XP_FILE">TopLevel_comp.rt.csv</a>
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 23MB peak: 23MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Oct 23 15:13:43 2023
+
+###########################################################]
+
+</pre></samp></body></html>
+<html><body><samp><pre>
+<!@TC:1698095622>
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: KANINS-DESKTOP
+
+Implementation : synthesis
+<a name=compilerReport4></a>Synopsys Synopsys Netlist Linker, Version comp202003synp2, Build 166R, Built Oct 19 2020 10:50:56, @</a>
+
+@N: : <!@TM:1698095624> | Running in 64-bit mode 
+Options changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 91MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Oct 23 15:13:44 2023
+
+###########################################################]
+
+</pre></samp></body></html>
+<html><body><samp><pre>
+<!@TC:1698095622>
+Premap Report
+
+
+</pre></samp></body></html>
+<html><body><samp><pre>
+<!@TC:1698095622>
+# Mon Oct 23 15:13:44 2023
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: KANINS-DESKTOP
+
+Implementation : synthesis
+<a name=mapperReport5></a>Synopsys Generic Technology Pre-mapping, Version map202003act, Build 160R, Built Oct 22 2020 12:05:41, @</a>
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 118MB)
+
+Reading constraint file: C:\Microsemi_prj\project2\designer\TopLevel\synthesis.fdc
+Linked File:  <a href="C:\Microsemi_prj\project2\synthesis\TopLevel_scck.rpt:@XP_FILE">TopLevel_scck.rpt</a>
+See clock summary report "C:\Microsemi_prj\project2\synthesis\TopLevel_scck.rpt"
+@N:<a href="@N:MF916:@XP_HELP">MF916</a> : <!@TM:1698095625> | Option synthesis_strategy=base is enabled.  
+@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1698095625> | Running in 64-bit mode. 
+@N:<a href="@N:MF667:@XP_HELP">MF667</a> : <!@TM:1698095625> | Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.) 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 129MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 129MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 129MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 129MB)
+
+@N:<a href="@N:MO111:@XP_HELP">MO111</a> : <a href="c:\microsemi_prj\project2\hdl\toplevel.v:312:7:312:15:@N:MO111:@XP_MSG">toplevel.v(312)</a><!@TM:1698095625> | Tristate driver final_count_1 (in view: work.TopLevel(verilog)) on net final_count[0] (in view: work.TopLevel(verilog)) has its enable tied to GND.
+@N:<a href="@N:FX1184:@XP_HELP">FX1184</a> : <!@TM:1698095625> | Applying syn_allowed_resources blockrams=21 on top level netlist TopLevel  
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 162MB peak: 162MB)
+
+
+
+<a name=mapperReport6></a>Clock Summary</a>
+******************
+
+          Start     Requested     Requested     Clock     Clock     Clock
+Level     Clock     Frequency     Period        Type      Group     Load 
+-------------------------------------------------------------------------
+=========================================================================
+
+
+
+Clock Load Summary
+***********************
+
+          Clock     Source     Clock Pin       Non-clock Pin     Non-clock Pin
+Clock     Load      Pin        Seq Example     Seq Example       Comb Example 
+------------------------------------------------------------------------------
+==============================================================================
+
+@N:<a href="@N:FX1143:@XP_HELP">FX1143</a> : <!@TM:1698095625> | Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized. 
+Finished Pre Mapping Phase.
+@N:<a href="@N:MO111:@XP_HELP">MO111</a> : <a href="c:\microsemi_prj\project2\hdl\toplevel.v:312:7:312:15:@N:MO111:@XP_MSG">toplevel.v(312)</a><!@TM:1698095625> | Tristate driver final_count_1 (in view: work.TopLevel(verilog)) on net final_count[0] (in view: work.TopLevel(verilog)) has its enable tied to GND.
+@N:<a href="@N:BN225:@XP_HELP">BN225</a> : <!@TM:1698095625> | Writing default property annotation file C:\Microsemi_prj\project2\synthesis\TopLevel.sap. 
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 162MB peak: 162MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 162MB peak: 163MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 163MB peak: 163MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 80MB peak: 164MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Oct 23 15:13:45 2023
+
+###########################################################]
+
+</pre></samp></body></html>
+<html><body><samp><pre>
+<!@TC:1698095622>
+Map & Optimize Report
+
+
+</pre></samp></body></html>
+<html><body><samp><pre>
+<!@TC:1698095622>
+# Mon Oct 23 15:13:45 2023
+
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03M-SP1
+Install: C:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+OS: Windows 6.2
+
+Hostname: KANINS-DESKTOP
+
+Implementation : synthesis
+<a name=mapperReport7></a>Synopsys Generic Technology Mapper, Version map202003act, Build 160R, Built Oct 22 2020 12:05:41, @</a>
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 118MB)
+
+@N:<a href="@N:MF916:@XP_HELP">MF916</a> : <!@TM:1698095627> | Option synthesis_strategy=base is enabled.  
+@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1698095627> | Running in 64-bit mode. 
+@N:<a href="@N:MF667:@XP_HELP">MF667</a> : <!@TM:1698095627> | Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.) 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 129MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 129MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 122MB peak: 129MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 129MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 159MB peak: 159MB)
+
+@N:<a href="@N:MO111:@XP_HELP">MO111</a> : <a href="c:\microsemi_prj\project2\hdl\toplevel.v:312:7:312:15:@N:MO111:@XP_MSG">toplevel.v(312)</a><!@TM:1698095627> | Tristate driver final_count_1 (in view: work.TopLevel(verilog)) on net final_count[0] (in view: work.TopLevel(verilog)) has its enable tied to GND.
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 162MB peak: 162MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 162MB peak: 162MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 162MB peak: 163MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 162MB peak: 163MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 163MB peak: 163MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 163MB peak: 163MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 163MB peak: 163MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 163MB peak: 163MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 163MB peak: 163MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 163MB peak: 164MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 163MB peak: 164MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+<a name=clockReport8></a>#### START OF CLOCK OPTIMIZATION REPORT #####[</a>
+
+Clock optimization not enabled
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 135MB peak: 164MB)
+
+Writing Analyst data base C:\Microsemi_prj\project2\synthesis\synwork\TopLevel_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 164MB peak: 164MB)
+
+Writing Verilog Simulation files
+@N:<a href="@N:BW103:@XP_HELP">BW103</a> : <!@TM:1698095627> | The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns. 
+@N:<a href="@N:BW107:@XP_HELP">BW107</a> : <!@TM:1698095627> | Synopsys Constraint File capacitance units using default value of 1pF  
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 165MB peak: 165MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 164MB peak: 165MB)
+
+
+
+<a name=timingReport9></a>##### START OF TIMING REPORT #####[</a>
+# Timing report written on Mon Oct 23 15:13:47 2023
+#
+
+
+Top view:               TopLevel
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\Microsemi_prj\project2\designer\TopLevel\synthesis.fdc
+                       
+@N:<a href="@N:MT320:@XP_HELP">MT320</a> : <!@TM:1698095627> | This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report. 
+
+@N:<a href="@N:MT322:@XP_HELP">MT322</a> : <!@TM:1698095627> | Clock constraints include only register-to-register paths associated with each individual clock. 
+
+
+
+<a name=performanceSummary10></a>Performance Summary</a>
+*******************
+
+
+Worst slack in design: NA
+
+
+
+
+
+
+<a name=clockRelationships11></a>Clock Relationships</a>
+*******************
+
+Clocks            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------
+========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+<a name=interfaceInfo12></a>Interface Information </a>
+*********************
+
+No IO constraint found
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 164MB peak: 165MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 164MB peak: 165MB)
+
+---------------------------------------
+<a name=resourceUsage13></a>Resource Usage Report for TopLevel </a>
+
+Mapping to part: m2s010vf400std
+
+Sequential Cells: 
+SLE            0 uses
+
+DSP Blocks:    0 of 22 (0%)
+
+I/O ports: 18
+I/O primitives: 1
+TRIBUFF        1 use
+
+
+Total LUTs:    0
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  0 + 0 + 0 + 0 = 0;
+Total number of LUTs after P&R:  0 + 0 + 0 + 0 = 0;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 57MB peak: 165MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Oct 23 15:13:47 2023
+
+###########################################################]
+
+</pre></samp></body></html>

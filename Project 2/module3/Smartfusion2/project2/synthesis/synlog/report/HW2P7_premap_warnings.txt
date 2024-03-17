@@ -1,0 +1,1 @@
+@W: MT530 :"c:\microsemi_prj\sf2project\hdl\hw2p7.v":35:2:35:7|Found inferred clock HW2P7|CP which controls 5 sequential elements including count_temp[3:0]. This clock has no specified timing constraint which may adversely impact design performance. 

@@ -1,0 +1,82 @@
+One matching license found for this product: synplifypro_actel
+
+Starting:    F:\Microsemi\Libero_SoC_v12.6\SynplifyPro\bin64\mbin\synbatch.exe
+Install:     F:\Microsemi\Libero_SoC_v12.6\SynplifyPro
+Hostname:    SHRIDELL
+Date:        Tue Oct 17 18:04:48 2023
+Version:     Q-2020.03M-SP1
+
+Arguments:   -product synplify_pro -batch -log synplify.log Counter16_syn.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel node-locked 
+Licensed Vendor: actel
+License Option: actel_oem
+
+Running in Vendor Mode
+
+"automatic_compile_point" is unrecognized option for current device
+Implementation not found: synthesis
+log file: "C:\Users\itssh\Desktop\Micosemi_prj\Counter16\synthesis\Counter16.srr"
+Running: synthesis in foreground
+
+Running Counter16_syn|synthesis
+
+Running Flow: compile (Compile) on Counter16_syn|synthesis
+# Tue Oct 17 18:04:49 2023
+
+Running Flow: compile_flow (Compile Process) on Counter16_syn|synthesis
+# Tue Oct 17 18:04:49 2023
+
+Running: compiler (Compile Input) on Counter16_syn|synthesis
+# Tue Oct 17 18:04:49 2023
+Copied C:\Users\itssh\Desktop\Micosemi_prj\Counter16\synthesis\synwork\Counter16_comp.srs to C:\Users\itssh\Desktop\Micosemi_prj\Counter16\synthesis\Counter16.srs
+
+compiler completed
+# Tue Oct 17 18:04:52 2023
+
+Return Code: 0
+Run Time:00h:00m:03s
+
+Running: multi_srs_gen (Multi-srs Generator) on Counter16_syn|synthesis
+# Tue Oct 17 18:04:52 2023
+
+multi_srs_gen completed
+# Tue Oct 17 18:04:52 2023
+
+Return Code: 0
+Run Time:00h:00m:00s
+Copied C:\Users\itssh\Desktop\Micosemi_prj\Counter16\synthesis\synwork\Counter16_mult.srs to C:\Users\itssh\Desktop\Micosemi_prj\Counter16\synthesis\Counter16.srs
+Complete: Compile Process on Counter16_syn|synthesis
+
+Running: premap (Premap) on Counter16_syn|synthesis
+# Tue Oct 17 18:04:52 2023
+
+premap completed with warnings
+# Tue Oct 17 18:04:54 2023
+
+Return Code: 1
+Run Time:00h:00m:02s
+Complete: Compile on Counter16_syn|synthesis
+
+Running Flow: map (Map) on Counter16_syn|synthesis
+# Tue Oct 17 18:04:54 2023
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on Counter16_syn|synthesis
+# Tue Oct 17 18:04:54 2023
+Copied C:\Users\itssh\Desktop\Micosemi_prj\Counter16\synthesis\synwork\Counter16_m.srm to C:\Users\itssh\Desktop\Micosemi_prj\Counter16\synthesis\Counter16.srm
+
+fpga_mapper completed with warnings
+# Tue Oct 17 18:04:57 2023
+
+Return Code: 1
+Run Time:00h:00m:03s
+Complete: Map on Counter16_syn|synthesis
+Complete: Logic Synthesis on Counter16_syn|synthesis
+Copied C:\Users\itssh\Desktop\Micosemi_prj\Counter16\synthesis\Counter16.srr to C:\Users\itssh\Desktop\Micosemi_prj\Counter16\synthesis\backup\Counter16.srr
+TCL script complete: "Counter16_syn.tcl"
+exit status=0
+exit status=0
+License checkin: synplifypro_actel

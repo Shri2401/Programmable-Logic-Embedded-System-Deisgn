@@ -1,0 +1,92 @@
+m255
+K4
+z2
+!s11f vlog 2020.3 2020.07, Jul 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Microsemi_prj/SF2Project/simulation
+vMSS_010
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1697316681
+!i10b 1
+!s100 XiEj>3:[[N8O[0o_hSHeP1
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I4hd^@5f7iI>AK0EG3iHVV1
+S1
+R0
+Z4 w1697316668
+Z5 8C:/Microsemi_prj/SF2Project/synthesis/SF2Project.v
+Z6 FC:/Microsemi_prj/SF2Project/synthesis/SF2Project.v
+!i122 0
+L0 5 989
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OW;L;2020.3;71
+r1
+!s85 0
+31
+Z9 !s108 1697316681.000000
+!s107 C:/Microsemi_prj/SF2Project/synthesis/SF2Project.v|
+Z10 !s90 -reportprogress|300|-sv|-work|postsynth|C:/Microsemi_prj/SF2Project/synthesis/SF2Project.v|
+!s101 -O0
+!i113 1
+Z11 o-sv -work postsynth -O0
+Z12 tCvgOpt 0
+n@m@s@s_010
+vSF2Project
+R1
+R2
+!i10b 1
+!s100 ;6]R1^AZT6k0_[i6I3JGT0
+R3
+IDf<ae;R_P6iO7UnVVocTJ0
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 2068 143
+R7
+R8
+r1
+!s85 0
+31
+R9
+Z13 !s107 C:/Microsemi_prj/SF2Project/synthesis/SF2Project.v|
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+n@s@f2@project
+vSF2Project_MSS
+R1
+R2
+!i10b 1
+!s100 nzh?__nb`KkU]b;TA[]jC2
+R3
+INlinV7jg[akJcCaRO7aa^0
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 996 1070
+R7
+R8
+r1
+!s85 0
+31
+R9
+R13
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+n@s@f2@project_@m@s@s

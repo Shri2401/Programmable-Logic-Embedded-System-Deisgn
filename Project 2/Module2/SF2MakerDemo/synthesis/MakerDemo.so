@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>MakerDemo</design>
+	<target_verilog>C:\ECEN5863\Project2\Module2\SF2MakerDemo\synthesis\MakerDemo.vm</target_verilog>
+</SynplifyOutput>

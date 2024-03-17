@@ -1,0 +1,43 @@
+Software Version: 12.900.20.24
+Programmer: 'E20026I8ND' : JTAG TCK / SPI SCK frequency = 1 MHz
+programmer 'E20026I8ND' : FlashPro5
+Warning: The programmer with id 'E2001Q8Z6T' in the project file cannot be detected and connected.
+Opened 'C:\ECEN5863\Project2\Module2\SF2MakerDemo\designer\MakerDemo\MakerDemo_fp\MakerDemo.pro'
+The 'open_project' command succeeded.
+Warning: Programming is already enabled for device 'M2S010'.
+The 'enable_device' command succeeded.
+PPD file 'C:/ECEN5863/Project2/Module2/SF2MakerDemo/designer/MakerDemo/MakerDemo.ppd' has been loaded successfully.
+DESIGN : MakerDemo;  CHECKSUM : C470;  PDB_VERSION : 1.0
+The 'set_programming_file' command succeeded.
+The 'set_programming_action' command succeeded.
+programmer 'E20026I8ND' : Scan Chain...
+Programmer: 'E20026I8ND' : JTAG TCK / SPI SCK frequency = 1 MHz
+programmer 'E20026I8ND' : Check Chain...
+programmer 'E20026I8ND' : Scan and Check Chain PASSED.
+programmer 'E20026I8ND' : device 'M2S010' : Executing action PROGRAM
+Programmer: 'E20026I8ND' : JTAG TCK / SPI SCK frequency = 4 MHz
+programmer 'E20026I8ND' : device 'M2S010' : Family: Igloo2
+programmer 'E20026I8ND' : device 'M2S010' : Product:      M2GL005
+programmer 'E20026I8ND' : device 'M2S010' : Cortex-M3 Disabled (M3_ALLOWED = 0)
+programmer 'E20026I8ND' : device 'M2S010' : EXPORT ISC_ENABLE_RESULT[32] = 007e6a44
+programmer 'E20026I8ND' : device 'M2S010' : EXPORT CRCERR[1] = 0
+programmer 'E20026I8ND' : device 'M2S010' : EXPORT EDCERR[1] = 0
+programmer 'E20026I8ND' : device 'M2S010' : Programming FPGA Array...
+programmer 'E20026I8ND' : device 'M2S010' : EXPORT Fabric component digest[256] = cf65f4c007d646b17db2f7381a5933646886275b43fc616df473dea8cae6e61c
+programmer 'E20026I8ND' : device 'M2S010' : ===================================================================================
+programmer 'E20026I8ND' : device 'M2S010' : EXPORT DSN[128] = a8eea3aedd75b0de9748cc069882d756
+programmer 'E20026I8ND' : device 'M2S010' : ===================================================================================
+programmer 'E20026I8ND' : device 'M2S010' : Finished: Fri Oct 20 21:27:59 2023 (Elapsed time 00:00:23)
+programmer 'E20026I8ND' : device 'M2S010' : Executing action PROGRAM PASSED.
+programmer 'E20026I8ND' : Chain programming PASSED.
+Chain Programming Finished: Fri Oct 20 21:27:59 2023 (Elapsed time 00:00:23)
+
+                        o - o - o - o - o - o
+
+The 'run_selected_actions' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.
+Exported log file C:\ECEN5863\Project2\Module2\SF2MakerDemo\designer\MakerDemo\MakerDemo_fp\MakerDemo.log.
+The 'close_project' command succeeded.
+The Execute Script command succeeded.

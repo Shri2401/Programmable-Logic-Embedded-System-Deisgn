@@ -1,0 +1,33 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/AlteraPrj/Project3Module1-Lab1/Lab1/Lab1Part2/simulation/modelsim
+vLab1Part2
+!s110 1700012682
+!i10b 1
+!s100 EH2@TFmZ>QX4:_nNm;O573
+IHU_L]<kT=20^i_S6M>3<=3
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1700012509
+8C:/AlteraPrj/Project3Module1-Lab1/Lab1/Lab1Part2/Lab1Part2.v
+FC:/AlteraPrj/Project3Module1-Lab1/Lab1/Lab1Part2/Lab1Part2.v
+L0 1
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1700012681.000000
+!s107 C:/AlteraPrj/Project3Module1-Lab1/Lab1/Lab1Part2/Lab1Part2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/AlteraPrj/Project3Module1-Lab1/Lab1/Lab1Part2|C:/AlteraPrj/Project3Module1-Lab1/Lab1/Lab1Part2/Lab1Part2.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+C:/AlteraPrj/Project3Module1-Lab1/Lab1/Lab1Part2
+tCvgOpt 0
+n@lab1@part2

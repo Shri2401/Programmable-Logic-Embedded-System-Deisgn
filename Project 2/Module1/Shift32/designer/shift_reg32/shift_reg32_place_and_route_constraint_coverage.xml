@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<text>SmartTime Version 12.900.20.24</text>
+<text>Microsemi Corporation - Microsemi Libero Software Release v12.6 (Version 12.900.20.24)
+Date: Tue Oct 17 17:10:28 2023 </text>
+<table>
+<header>
+</header>
+<row>
+ <cell>Design</cell>
+ <cell>shift_reg32</cell>
+</row>
+<row>
+ <cell>Family</cell>
+ <cell>SmartFusion2</cell>
+</row>
+<row>
+ <cell>Die</cell>
+ <cell>M2S010</cell>
+</row>
+<row>
+ <cell>Package</cell>
+ <cell>144 TQ</cell>
+</row>
+<row>
+ <cell>Temperature Range</cell>
+ <cell>0 - 85 C</cell>
+</row>
+<row>
+ <cell>Voltage Range</cell>
+ <cell>1.14 - 1.26 V</cell>
+</row>
+<row>
+ <cell>Speed Grade</cell>
+ <cell>STD</cell>
+</row>
+</table>
+<text></text>
+<text></text>
+<section>
+<name>Coverage Summary</name>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>           31</cell>
+ <cell>           33</cell>
+ <cell>           64</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>           32</cell>
+ <cell>           32</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>           32</cell>
+ <cell>           32</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>           31</cell>
+ <cell>           97</cell>
+ <cell>          128</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>           31</cell>
+ <cell>           33</cell>
+ <cell>           64</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>           32</cell>
+ <cell>           32</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>           32</cell>
+ <cell>           32</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>           31</cell>
+ <cell>           97</cell>
+ <cell>          128</cell>
+</row>
+</table>
+<section>
+<name>Clock domain: </name>
+<text>CLK</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>           31</cell>
+ <cell>           33</cell>
+ <cell>           64</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>           32</cell>
+ <cell>           32</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>           32</cell>
+ <cell>           32</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>           31</cell>
+ <cell>           97</cell>
+ <cell>          128</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>           31</cell>
+ <cell>           33</cell>
+ <cell>           64</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>           32</cell>
+ <cell>           32</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>           32</cell>
+ <cell>           32</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>           31</cell>
+ <cell>           97</cell>
+ <cell>          128</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text> - Max input delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>D</item>
+ <item>EN</item>
+ <item>RST</item>
+</list>
+<text></text>
+<text> - Min input delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>D</item>
+ <item>EN</item>
+ <item>RST</item>
+</list>
+<text></text>
+<text></text>
+<text> - Max output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>Q[0]</item>
+ <item>Q[10]</item>
+ <item>Q[11]</item>
+ <item>Q[12]</item>
+ <item>Q[13]</item>
+ <item>Q[14]</item>
+ <item>Q[15]</item>
+ <item>Q[16]</item>
+ <item>Q[17]</item>
+ <item>Q[18]</item>
+ <item>Q[19]</item>
+ <item>Q[1]</item>
+ <item>Q[20]</item>
+ <item>Q[21]</item>
+ <item>Q[22]</item>
+ <item>Q[23]</item>
+ <item>Q[24]</item>
+ <item>Q[25]</item>
+ <item>Q[26]</item>
+ <item>Q[27]</item>
+ <item>Q[28]</item>
+ <item>Q[29]</item>
+ <item>Q[2]</item>
+ <item>Q[30]</item>
+ <item>Q[31]</item>
+ <item>Q[3]</item>
+ <item>Q[4]</item>
+ <item>Q[5]</item>
+ <item>Q[6]</item>
+ <item>Q[7]</item>
+ <item>Q[8]</item>
+ <item>Q[9]</item>
+</list>
+<text></text>
+<text> - Min output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>Q[0]</item>
+ <item>Q[10]</item>
+ <item>Q[11]</item>
+ <item>Q[12]</item>
+ <item>Q[13]</item>
+ <item>Q[14]</item>
+ <item>Q[15]</item>
+ <item>Q[16]</item>
+ <item>Q[17]</item>
+ <item>Q[18]</item>
+ <item>Q[19]</item>
+ <item>Q[1]</item>
+ <item>Q[20]</item>
+ <item>Q[21]</item>
+ <item>Q[22]</item>
+ <item>Q[23]</item>
+ <item>Q[24]</item>
+ <item>Q[25]</item>
+ <item>Q[26]</item>
+ <item>Q[27]</item>
+ <item>Q[28]</item>
+ <item>Q[29]</item>
+ <item>Q[2]</item>
+ <item>Q[30]</item>
+ <item>Q[31]</item>
+ <item>Q[3]</item>
+ <item>Q[4]</item>
+ <item>Q[5]</item>
+ <item>Q[6]</item>
+ <item>Q[7]</item>
+ <item>Q[8]</item>
+ <item>Q[9]</item>
+</list>
+<text></text>
+<text></text>
+<text> - Setup unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>Q_int[0]:D</item>
+ <item>Q_int[0]:EN</item>
+ <item>Q_int[10]:EN</item>
+ <item>Q_int[11]:EN</item>
+ <item>Q_int[12]:EN</item>
+ <item>Q_int[13]:EN</item>
+ <item>Q_int[14]:EN</item>
+ <item>Q_int[15]:EN</item>
+ <item>Q_int[16]:EN</item>
+ <item>Q_int[17]:EN</item>
+ <item>Q_int[18]:EN</item>
+ <item>Q_int[19]:EN</item>
+ <item>Q_int[1]:EN</item>
+ <item>Q_int[20]:EN</item>
+ <item>Q_int[21]:EN</item>
+ <item>Q_int[22]:EN</item>
+ <item>Q_int[23]:EN</item>
+ <item>Q_int[24]:EN</item>
+ <item>Q_int[25]:EN</item>
+ <item>Q_int[26]:EN</item>
+ <item>Q_int[27]:EN</item>
+ <item>Q_int[28]:EN</item>
+ <item>Q_int[29]:EN</item>
+ <item>Q_int[2]:EN</item>
+ <item>Q_int[30]:EN</item>
+ <item>Q_int[31]:EN</item>
+ <item>Q_int[3]:EN</item>
+ <item>Q_int[4]:EN</item>
+ <item>Q_int[5]:EN</item>
+ <item>Q_int[6]:EN</item>
+ <item>Q_int[7]:EN</item>
+ <item>Q_int[8]:EN</item>
+ <item>Q_int[9]:EN</item>
+</list>
+<text></text>
+<text> - Recovery unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>Q_int[0]:ALn</item>
+ <item>Q_int[10]:ALn</item>
+ <item>Q_int[11]:ALn</item>
+ <item>Q_int[12]:ALn</item>
+ <item>Q_int[13]:ALn</item>
+ <item>Q_int[14]:ALn</item>
+ <item>Q_int[15]:ALn</item>
+ <item>Q_int[16]:ALn</item>
+ <item>Q_int[17]:ALn</item>
+ <item>Q_int[18]:ALn</item>
+ <item>Q_int[19]:ALn</item>
+ <item>Q_int[1]:ALn</item>
+ <item>Q_int[20]:ALn</item>
+ <item>Q_int[21]:ALn</item>
+ <item>Q_int[22]:ALn</item>
+ <item>Q_int[23]:ALn</item>
+ <item>Q_int[24]:ALn</item>
+ <item>Q_int[25]:ALn</item>
+ <item>Q_int[26]:ALn</item>
+ <item>Q_int[27]:ALn</item>
+ <item>Q_int[28]:ALn</item>
+ <item>Q_int[29]:ALn</item>
+ <item>Q_int[2]:ALn</item>
+ <item>Q_int[30]:ALn</item>
+ <item>Q_int[31]:ALn</item>
+ <item>Q_int[3]:ALn</item>
+ <item>Q_int[4]:ALn</item>
+ <item>Q_int[5]:ALn</item>
+ <item>Q_int[6]:ALn</item>
+ <item>Q_int[7]:ALn</item>
+ <item>Q_int[8]:ALn</item>
+ <item>Q_int[9]:ALn</item>
+</list>
+<text></text>
+<text> - Hold unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>Q_int[0]:D</item>
+ <item>Q_int[0]:EN</item>
+ <item>Q_int[10]:EN</item>
+ <item>Q_int[11]:EN</item>
+ <item>Q_int[12]:EN</item>
+ <item>Q_int[13]:EN</item>
+ <item>Q_int[14]:EN</item>
+ <item>Q_int[15]:EN</item>
+ <item>Q_int[16]:EN</item>
+ <item>Q_int[17]:EN</item>
+ <item>Q_int[18]:EN</item>
+ <item>Q_int[19]:EN</item>
+ <item>Q_int[1]:EN</item>
+ <item>Q_int[20]:EN</item>
+ <item>Q_int[21]:EN</item>
+ <item>Q_int[22]:EN</item>
+ <item>Q_int[23]:EN</item>
+ <item>Q_int[24]:EN</item>
+ <item>Q_int[25]:EN</item>
+ <item>Q_int[26]:EN</item>
+ <item>Q_int[27]:EN</item>
+ <item>Q_int[28]:EN</item>
+ <item>Q_int[29]:EN</item>
+ <item>Q_int[2]:EN</item>
+ <item>Q_int[30]:EN</item>
+ <item>Q_int[31]:EN</item>
+ <item>Q_int[3]:EN</item>
+ <item>Q_int[4]:EN</item>
+ <item>Q_int[5]:EN</item>
+ <item>Q_int[6]:EN</item>
+ <item>Q_int[7]:EN</item>
+ <item>Q_int[8]:EN</item>
+ <item>Q_int[9]:EN</item>
+</list>
+<text></text>
+<text> - Removal unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>Q_int[0]:ALn</item>
+ <item>Q_int[10]:ALn</item>
+ <item>Q_int[11]:ALn</item>
+ <item>Q_int[12]:ALn</item>
+ <item>Q_int[13]:ALn</item>
+ <item>Q_int[14]:ALn</item>
+ <item>Q_int[15]:ALn</item>
+ <item>Q_int[16]:ALn</item>
+ <item>Q_int[17]:ALn</item>
+ <item>Q_int[18]:ALn</item>
+ <item>Q_int[19]:ALn</item>
+ <item>Q_int[1]:ALn</item>
+ <item>Q_int[20]:ALn</item>
+ <item>Q_int[21]:ALn</item>
+ <item>Q_int[22]:ALn</item>
+ <item>Q_int[23]:ALn</item>
+ <item>Q_int[24]:ALn</item>
+ <item>Q_int[25]:ALn</item>
+ <item>Q_int[26]:ALn</item>
+ <item>Q_int[27]:ALn</item>
+ <item>Q_int[28]:ALn</item>
+ <item>Q_int[29]:ALn</item>
+ <item>Q_int[2]:ALn</item>
+ <item>Q_int[30]:ALn</item>
+ <item>Q_int[31]:ALn</item>
+ <item>Q_int[3]:ALn</item>
+ <item>Q_int[4]:ALn</item>
+ <item>Q_int[5]:ALn</item>
+ <item>Q_int[6]:ALn</item>
+ <item>Q_int[7]:ALn</item>
+ <item>Q_int[8]:ALn</item>
+ <item>Q_int[9]:ALn</item>
+</list>
+<text></text>
+</section>
+</section>
+<section>
+<name>Input to Output</name>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<separator/>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+</table>
+</section>
+</section>
+</doc>

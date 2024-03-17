@@ -1,0 +1,94 @@
+# Microsemi Physical design constraints file
+
+# Version: v12.6 12.900.20.24
+
+# Design Name: Shifter 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S010 , Package: 144 TQ , Speed grade: STD 
+
+# Date generated: Tue Oct 17 17:34:08 2023 
+
+
+#
+# I/O constraints
+#
+
+set_io Din -DIRECTION INPUT -pinname 130 -fixed no
+set_io Qout\[0\] -DIRECTION OUTPUT -pinname 14 -fixed no
+set_io Qout\[1\] -DIRECTION OUTPUT -pinname 29 -fixed no
+set_io Qout\[2\] -DIRECTION OUTPUT -pinname 22 -fixed no
+set_io Qout\[3\] -DIRECTION OUTPUT -pinname 21 -fixed no
+set_io Qout\[4\] -DIRECTION OUTPUT -pinname 4 -fixed no
+set_io Qout\[5\] -DIRECTION OUTPUT -pinname 7 -fixed no
+set_io Qout\[6\] -DIRECTION OUTPUT -pinname 24 -fixed no
+set_io Qout\[7\] -DIRECTION OUTPUT -pinname 36 -fixed no
+set_io Qout\[8\] -DIRECTION OUTPUT -pinname 27 -fixed no
+set_io Qout\[9\] -DIRECTION OUTPUT -pinname 23 -fixed no
+set_io Qout\[10\] -DIRECTION OUTPUT -pinname 38 -fixed no
+set_io Qout\[11\] -DIRECTION OUTPUT -pinname 33 -fixed no
+set_io Qout\[12\] -DIRECTION OUTPUT -pinname 30 -fixed no
+set_io Qout\[13\] -DIRECTION OUTPUT -pinname 28 -fixed no
+set_io Qout\[14\] -DIRECTION OUTPUT -pinname 32 -fixed no
+set_io Qout\[15\] -DIRECTION OUTPUT -pinname 15 -fixed no
+set_io clk -DIRECTION INPUT -pinname 20 -fixed no
+set_io enable -DIRECTION INPUT -pinname 142 -fixed no
+set_io reset -DIRECTION INPUT -pinname 144 -fixed no
+
+#
+# Core cell constraints
+#
+
+set_location Qout_Z\[9\] -fixed no 14 46
+set_location count\[1\] -fixed no 18 49
+set_location Q\[11\] -fixed no 22 43
+set_location count\[0\] -fixed no 13 49
+set_location count_r\[0\] -fixed no 13 48
+set_location Q\[1\] -fixed no 23 52
+set_location clk_ibuf_RNIVTI2 -fixed no 219 54
+set_location Q\[5\] -fixed no 12 49
+set_location Qout_Z\[11\] -fixed no 16 43
+set_location Qout_Z\[12\] -fixed no 16 46
+set_location Q\[10\] -fixed no 23 43
+set_location Qout_Z\[14\] -fixed no 19 43
+set_location count_r\[2\] -fixed no 17 48
+set_location Qout_Z\[0\] -fixed no 19 52
+set_location Qout_Z\[5\] -fixed no 20 52
+set_location ld_reg_or -fixed no 22 48
+set_location Q\[0\] -fixed no 21 52
+set_location Q\[7\] -fixed no 23 46
+set_location enable_or -fixed no 16 48
+set_location Qout_Z\[4\] -fixed no 17 52
+set_location ld_reg -fixed no 14 49
+set_location flash_freeze_inst/INST_FLASH_FREEZE_IP -fixed no 396 8
+set_location count\[2\] -fixed no 17 49
+set_location Q\[3\] -fixed no 13 52
+set_location Qout_Z\[2\] -fixed no 16 52
+set_location Qout_Z\[10\] -fixed no 13 46
+set_location Q\[6\] -fixed no 13 43
+set_location Q\[9\] -fixed no 20 46
+set_location Q\[14\] -fixed no 12 43
+set_location un1_count_1.CO1 -fixed no 14 48
+set_location Q\[13\] -fixed no 21 43
+set_location Qout_Z\[1\] -fixed no 22 52
+set_location Qout_Z\[6\] -fixed no 19 46
+set_location Q\[2\] -fixed no 15 52
+set_location count\[3\] -fixed no 19 49
+set_location count_r\[1\] -fixed no 18 48
+set_location count_r\[3\] -fixed no 19 48
+set_location Q\[8\] -fixed no 21 46
+set_location ld_reg7 -fixed no 15 48
+set_location Q\[12\] -fixed no 15 43
+set_location Qout_Z\[7\] -fixed no 15 46
+set_location clk_ibuf_RNIVTI2/U0_RGB1 -fixed no 218 51
+set_location Q\[15\] -fixed no 14 43
+set_location Q\[4\] -fixed no 12 52
+set_location Qout_Z\[3\] -fixed no 18 52
+set_location ip_interface_inst -fixed no 191 0
+set_location Qout_Z\[15\] -fixed no 18 46
+set_location Qout_Z\[8\] -fixed no 12 46
+set_location Qout_Z\[13\] -fixed no 17 43
+set_location clk_ibuf_RNIVTI2/U0_RGB1_RGB0 -fixed no 218 48
+set_location clk_ibuf_RNIVTI2/U0_RGB1_RGB1 -fixed no 218 45
+set_location clk_ibuf_RNIVTI2/U0_RGB1_RGB2 -fixed no 218 42

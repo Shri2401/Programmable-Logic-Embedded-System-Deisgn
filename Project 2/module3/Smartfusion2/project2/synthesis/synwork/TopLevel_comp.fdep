@@ -1,0 +1,20 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Microsemi_prj\\project2\\synthesis\\synwork\\TopLevel_comp.srs|-top|TopLevel|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-I|C:\\Microsemi_prj\\project2\\synthesis\\|-I|C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib|-sysv|-devicelib|C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\generic\\smartfusion2.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\bin64\\c_ver.exe":1604390270
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\generic\\smartfusion2.v":1604390290
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\vlog\\hypermods.v":1604390293
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\vlog\\umr_capim.v":1604390293
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1604390293
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.6\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1604390293
+#CUR:"C:\\Microsemi_prj\\project2\\hdl\\project2.v":1698095404
+#CUR:"C:\\Microsemi_prj\\project2\\hdl\\TopLevel.v":1698095594
+0			"C:\Microsemi_prj\project2\hdl\project2.v" verilog
+1			"C:\Microsemi_prj\project2\hdl\TopLevel.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 0
+#Dependency Lists(Users Of)
+0 1
+1 -1
+#Design Unit to File Association
+module work TopLevel 1
+module work project2 0

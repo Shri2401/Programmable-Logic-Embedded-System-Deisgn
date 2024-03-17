@@ -1,0 +1,25 @@
+data HELP_TYPE_DES 2data DESIGN Shifter
+data HPATH 'C:/Users/itssh/Desktop/Micosemi_prj/Shifter/designer/Shifter'
+data CPATH 'C:/Users/itssh/Desktop/Micosemi_prj/Shifter/constraint/io'
+data CDIR 'C:/Users/itssh/Desktop/Micosemi_prj/Shifter/constraint'
+data ETYPE IO
+data FAM SmartFusion2
+data DIE PA4M1000_N
+data PACKAGE tq144
+data HYDRA_EXPORT_DATA 1
+data HYDRA_PRESERVE_DATA_FILES 1
+data VCCI_1.2_VOLTR COM
+data VCCI_1.5_VOLTR COM
+data VCCI_1.8_VOLTR COM
+data VCCI_2.5_VOLTR COM
+data VCCI_3.3_VOLTR COM
+data FLOW_TYPE NEW
+data AFL 'C:/Users/itssh/Desktop/Micosemi_prj/Shifter/designer/Shifter/Shifter.afl'
+data ADL 'C:/Users/itssh/Desktop/Micosemi_prj/Shifter/designer/Shifter/Shifter.adl'
+data LOC 'C:/Users/itssh/Desktop/Micosemi_prj/Shifter/designer/Shifter/Shifter.loc'
+data SEG 'C:/Users/itssh/Desktop/Micosemi_prj/Shifter/designer/Shifter/Shifter.seg'
+data NMAT_PDC 'C:/Users/itssh/Desktop/Micosemi_prj/Shifter/designer/Shifter/Shifter.nmatinit.pdc'
+
+data TARGET_IOPDC  'C:/Users/itssh/Desktop/Micosemi_prj/Shifter/constraint/io/user.pdc'
+data TARGET_FPPDC  'C:/Users/itssh/Desktop/Micosemi_prj/Shifter/constraint/fp/user.pdc'
+
